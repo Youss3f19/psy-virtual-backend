@@ -1,0 +1,45 @@
+{
+  "name": "psycho-virtuel-backend",
+  "version": "1.0.0",
+  "description": "Backend API pour Psychologue Virtuel",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon -r dotenv/config src/server.js dotenv_config_path=.env.development",
+    "prod": "NODE_ENV=production node src/server.js",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Tests à implémenter\" && exit 0"
+  },
+  "keywords": ["express", "mongodb", "api", "health", "mental-health"],
+  "author": "Laribi Med Youssed | Lina Ezzar | Nouha Ismaili | Youssef Marzouki",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "express-session": "^1.18.2",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1",
+    "morgan": "^1.10.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "winston": "^3.18.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.37.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-node": "^11.1.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
