@@ -30,13 +30,18 @@ const userSchema = new mongoose.Schema(
       sparse: true,
       index: true,
     },
+      facebookId: {
+        type: String,
+        unique: true,
+        sparse: true 
+    },
     avatar: {
       type: String,
       default: null,
     },
     authProvider: {
       type: String,
-      enum: ['local', 'google'],
+      enum: ['local', 'google' , 'facebook'],
       default: 'local',
     },
     isPremium: {

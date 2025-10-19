@@ -7,6 +7,8 @@ const { signupValidator, loginValidator } = require('../validators/auth.validato
 
 const router = express.Router();
 
+// AUTHENTIFICATION LOCALE
+
 /**
  * @route   POST /api/v1/auth/signup
  * @desc    Inscription locale
@@ -20,6 +22,8 @@ router.post('/signup', signupValidator, validate, AuthController.signup);
  * @access  Public
  */
 router.post('/login', loginValidator, validate, AuthController.login);
+
+// AUTHENTIFICATION GOOGLE
 
 /**
  * @route   GET /api/v1/auth/google
@@ -45,8 +49,39 @@ router.get(
     failureRedirect: `${process.env.FRONTEND_URL}/login?error=google_auth_failed`,
     session: false,
   }),
-  AuthController.googleCallback
+  AuthController.oAuthCallback
 );
+
+// AUTHENTIFICATION FACEBOOK
+
+/**
+ * @route   GET /api/v1/auth/facebook
+ * @desc    Redirection vers Facebook OAuth
+ * @access  Public
+ */
+router.get(
+  '/facebook',
+  passport.authenticate('facebook', {
+    scope: ['email'],
+    session: false,
+  })
+);
+
+/**
+ * @route   GET /api/v1/auth/facebook/callback
+ * @desc    Callback Facebook OAuth
+ * @access  Public
+ */
+router.get(
+  '/facebook/callback',
+  passport.authenticate('facebook', {
+    failureRedirect: `${process.env.FRONTEND_URL}/login?error=facebook_auth_failed`,
+    session: false,
+  }),
+  AuthController.oAuthCallback
+);
+
+// ROUTES PROTÉGÉES
 
 /**
  * @route   GET /api/v1/auth/me

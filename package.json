@@ -12,7 +12,13 @@
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Tests à implémenter\" && exit 0"
   },
-  "keywords": ["express", "mongodb", "api", "health", "mental-health"],
+  "keywords": [
+    "express",
+    "mongodb",
+    "api",
+    "health",
+    "mental-health"
+  ],
   "author": "Laribi Med Youssed | Lina Ezzar | Nouha Ismaili | Youssef Marzouki",
   "license": "ISC",
   "engines": {
@@ -32,6 +38,7 @@
     "mongoose": "^8.19.1",
     "morgan": "^1.10.1",
     "passport": "^0.7.0",
+    "passport-facebook": "^3.0.0",
     "passport-google-oauth20": "^2.0.0",
     "winston": "^3.18.3"
   },

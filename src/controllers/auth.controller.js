@@ -1,5 +1,6 @@
 const AuthService = require('../services/auth.service');
 const ApiResponse = require('../utils/apiResponse');
+const ApiError = require('../utils/apiError');
 const logger = require('../utils/logger');
 const config = require('../config');
 
@@ -12,7 +13,6 @@ class AuthController {
   static async signup(req, res, next) {
     try {
       const { name, email, password } = req.body;
-
       const result = await AuthService.signup({ name, email, password });
 
       const response = ApiResponse.created(
@@ -45,7 +45,6 @@ class AuthController {
   static async login(req, res, next) {
     try {
       const { email, password } = req.body;
-
       const result = await AuthService.login(email, password);
 
       const response = ApiResponse.success(
@@ -72,30 +71,23 @@ class AuthController {
   }
 
   /**
-   * @desc    Authentification Google (redirection)
-   * @route   GET /api/v1/auth/google
-   * @access  Public
-   */
-  static googleAuth(req, res, next) {
-    // Géré par Passport middleware
-    logger.info('Redirection vers Google OAuth');
-  }
-
-  /**
-   * @desc    Callback Google OAuth
+   * @desc    Callback générique pour OAuth (Google, Facebook, etc.)
    * @route   GET /api/v1/auth/google/callback
+   * @route   GET /api/v1/auth/facebook/callback
    * @access  Public
    */
-  static async googleCallback(req, res, next) {
+  static async oAuthCallback(req, res, next) {
     try {
-      const tokens = await AuthService.googleOAuthCallback(req.user);
+      // Générer les tokens JWT pour l'utilisateur authentifié
+      const tokens = await AuthService.generateAuthTokens(req.user);
 
       // Redirection vers le frontend avec les tokens
       const redirectUrl = `${config.frontendUrl}/auth-success?accessToken=${tokens.accessToken}&refreshToken=${tokens.refreshToken}`;
       
       res.redirect(redirectUrl);
     } catch (error) {
-      logger.error(`Erreur Google callback: ${error.message}`);
+      const authProvider = req.user ? req.user.authProvider : 'unknown';
+      logger.error(`Erreur lors du callback OAuth (${authProvider}) : ${error.message}`);
       res.redirect(`${config.frontendUrl}/login?error=auth_failed`);
     }
   }
@@ -142,7 +134,6 @@ class AuthController {
       }
 
       const tokens = await AuthService.refreshToken(refreshToken);
-
       const response = ApiResponse.success(tokens, 'Token rafraîchi avec succès');
 
       res.status(response.statusCode).json(response);
@@ -159,11 +150,9 @@ class AuthController {
   static async changePassword(req, res, next) {
     try {
       const { oldPassword, newPassword } = req.body;
-
       await AuthService.changePassword(req.user._id, oldPassword, newPassword);
 
       const response = ApiResponse.success(null, 'Mot de passe changé avec succès');
-
       res.status(response.statusCode).json(response);
     } catch (error) {
       next(error);
@@ -178,7 +167,6 @@ class AuthController {
   static async updateProfile(req, res, next) {
     try {
       const updates = req.body;
-
       const user = await AuthService.updateProfile(req.user._id, updates);
 
       const response = ApiResponse.success(
@@ -198,18 +186,14 @@ class AuthController {
   }
 
   /**
-   * @desc    Déconnexion (optionnel - côté client)
+   * @desc    Déconnexion
    * @route   POST /api/v1/auth/logout
    * @access  Private
    */
   static async logout(req, res, next) {
     try {
-      // Dans un système JWT, la déconnexion se fait principalement côté client
-      // On peut logger l'événement ici
-      logger.info(`Déconnexion utilisateur: ${req.user.email}`);
-
+      logger.info(`Déconnexion utilisateur : ${req.user.email}`);
       const response = ApiResponse.success(null, 'Déconnexion réussie');
-
       res.status(response.statusCode).json(response);
     } catch (error) {
       next(error);
@@ -224,9 +208,7 @@ class AuthController {
   static async deleteAccount(req, res, next) {
     try {
       await AuthService.deleteAccount(req.user._id);
-
       const response = ApiResponse.success(null, 'Compte supprimé avec succès');
-
       res.status(response.statusCode).json(response);
     } catch (error) {
       next(error);
