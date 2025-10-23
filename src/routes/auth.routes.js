@@ -68,7 +68,7 @@ router.get(
 );
 
 /**
- * @route   GET /api/v1/auth/facebook/callback
+ * @route   GET   
  * @desc    Callback Facebook OAuth
  * @access  Public
  */
