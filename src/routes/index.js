@@ -1,5 +1,7 @@
 const express = require('express');
 const authRoutes = require('./auth.routes');
+const voiceRoutes = require('./voice.routes');
+const billingRoutes = require('./billing.routes');
 
 const router = express.Router();
 
@@ -19,5 +21,7 @@ router.get('/health', (req, res) => {
 
 // Routes d'authentification
 router.use('/auth', authRoutes);
+router.use('/chat', voiceRoutes); 
+router.use('/billing', billingRoutes);
 
 module.exports = router;
