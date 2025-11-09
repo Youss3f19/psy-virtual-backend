@@ -559,3 +559,9 @@
 2025-11-09 16:08:24 [32minfo[39m: [32mConnexion réussie: aze@zzz.com[39m
 2025-11-09 17:12:44 [32minfo[39m: [32mConnexion réussie: aze@zzz.com[39m
 2025-11-09 17:33:02 [31merror[39m: [31mRoute non trouvée: /api/v1/[39m
+2025-11-09 19:07:02 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 19:07:02 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 19:07:02 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 19:07:02 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 19:07:02 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 19:08:40 [32minfo[39m: [32mConnexion réussie: youssef@gmail.com[39m
