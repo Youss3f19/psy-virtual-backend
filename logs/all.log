@@ -539,3 +539,8 @@
 2025-11-08 15:58:03 [32minfo[39m: [32mWebhook reçu: invoice_payment.paid[39m
 2025-11-08 15:58:12 [32minfo[39m: [32mWebhook reçu: invoice_payment.paid[39m
 2025-11-09 11:59:02 [33mwarn[39m: [33m MongoDB déconnecté[39m
+2025-11-09 13:16:37 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 13:16:37 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 13:16:37 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 13:16:37 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 13:16:37 [32minfo[39m: [32m MongoDB connecté: localhost[39m
