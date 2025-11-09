@@ -544,3 +544,18 @@
 2025-11-09 13:16:37 [32minfo[39m: [32m URL: http://localhost:5000[39m
 2025-11-09 13:16:37 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
 2025-11-09 13:16:37 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 15:57:27 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 15:57:27 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 15:57:27 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 15:57:27 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 15:57:27 [32minfo[39m: [32m MongoDB connecté: 127.0.0.1[39m
+2025-11-09 15:58:36 [31merror[39m: [31mRoute non trouvée: /favicon.ico[39m
+2025-11-09 16:07:18 [31merror[39m: [31mLe mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
+2025-11-09 16:07:25 [31merror[39m: [31mLe mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
+2025-11-09 16:07:30 [31merror[39m: [31mLe mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
+2025-11-09 16:07:36 [31merror[39m: [31mLe mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
+2025-11-09 16:07:46 [31merror[39m: [31mLe mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
+2025-11-09 16:08:07 [32minfo[39m: [32mNouvel utilisateur créé: aze@zzz.com[39m
+2025-11-09 16:08:24 [32minfo[39m: [32mConnexion réussie: aze@zzz.com[39m
+2025-11-09 17:12:44 [32minfo[39m: [32mConnexion réussie: aze@zzz.com[39m
+2025-11-09 17:33:02 [31merror[39m: [31mRoute non trouvée: /api/v1/[39m
