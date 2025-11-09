@@ -544,6 +544,143 @@
 2025-11-09 13:16:37 [32minfo[39m: [32m URL: http://localhost:5000[39m
 2025-11-09 13:16:37 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
 2025-11-09 13:16:37 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 14:48:56 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 14:48:56 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 14:48:56 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 14:48:56 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 14:48:56 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 14:48:56 [31merror[39m: [31mCet email est déjà utilisé[39m
+2025-11-09 14:49:02 [31merror[39m: [31mCet email est déjà utilisé[39m
+2025-11-09 14:49:10 [31merror[39m: [31mCet email est déjà utilisé[39m
+2025-11-09 14:49:20 [32minfo[39m: [32mNouvel utilisateur créé: nouhasmaili@gmail.com[39m
+2025-11-09 14:49:45 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 15:33:42 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 15:46:22 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 15:58:37 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 16:07:07 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 16:08:45 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 16:16:49 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 16:18:52 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 16:22:15 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 16:27:16 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 16:32:11 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-09 16:32:17 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 16:32:27 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 16:50:54 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 16:51:04 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 16:51:17 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 16:52:27 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 17:01:49 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 17:02:03 [31merror[39m: [31mLe plan est requis, Plan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:07:45 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 17:07:45 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 17:07:45 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 17:07:45 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 17:07:45 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 17:07:48 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 17:10:14 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 17:10:25 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:11:32 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:14:26 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 17:16:27 [31merror[39m: [31mRoute non trouvée: /api/v1/auth[39m
+2025-11-09 17:17:06 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 17:17:43 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 17:17:54 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 17:18:04 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 17:19:07 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:19:30 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:20:10 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:20:19 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:28:30 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:30:38 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 17:30:38 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 17:30:38 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 17:30:38 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 17:30:38 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 17:30:42 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:30:46 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:31:05 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 17:31:05 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 17:31:05 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 17:31:05 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 17:31:05 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 17:31:09 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2025-11-09 17:31:26 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2025-11-09 17:34:24 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2025-11-09 17:34:34 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 17:34:34 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 17:34:34 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 17:34:34 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 17:34:34 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 17:34:42 [31merror[39m: [31mToken expiré[39m
+2025-11-09 17:35:12 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 17:35:56 [31merror[39m: [31mLe plan est requis, Plan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:36:52 [31merror[39m: [31mLe plan est requis, Plan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:37:28 [31merror[39m: [31mLe plan est requis, Plan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:38:42 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:43:52 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:47:28 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 17:47:28 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 17:47:28 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 17:47:28 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 17:47:28 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 17:47:35 [32minfo[39m: [32mSession Checkout créée: cs_test_b1NyNBwxIMK9Gf7R8XMeHkUXzIKR7hXf3Ku6BEoRNGm4oGCUyb01nLwch7 pour user nouhasmaili@gmail.com[39m
+2025-11-09 17:52:10 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 17:52:23 [32minfo[39m: [32mSession Checkout créée: cs_test_b191qo7tWVSTsFFiNayNaC2YE2X3Ve3nnC8LwFGrHaNzo4cJdxL1yOIwnz pour user nouhasmaili@gmail.com[39m
+2025-11-09 18:04:38 [32minfo[39m: [32mSession Checkout créée: cs_test_b1E1VwqYsKAMMXwGCct6wP60utuw8P2H0Q00JVQ7spTjk0mzpVvm4l0kvO pour user nouhasmaili@gmail.com[39m
+2025-11-09 18:06:48 [32minfo[39m: [32mSession Checkout créée: cs_test_b1lAvr0BUQLDmXEGN4xCGlCVCaLrWf2W22kFy0Htp0QkN0QILdQuBRVMRS pour user nouhasmaili@gmail.com[39m
+2025-11-09 18:11:59 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 18:11:59 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 18:11:59 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 18:11:59 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 18:11:59 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 18:12:08 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 18:12:08 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 18:12:08 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 18:12:08 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 18:12:08 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 18:12:35 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 18:12:46 [32minfo[39m: [32mSession Checkout créée: cs_test_b1c24JymErLs6skrW4SLeYctuwoy4HYVPgzUdoeKiJozNPp50W8FfI44XM pour user nouhasmaili@gmail.com[39m
+2025-11-09 18:15:24 [32minfo[39m: [32mSession Checkout créée: cs_test_b16sS95e4OqE96h0VZIWPb2zonUN2eJLb2Y69dyT6IYQyUseOGEdj7Isvd pour user nouhasmaili@gmail.com[39m
+2025-11-09 18:18:02 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 18:18:02 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 18:18:02 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 18:18:02 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 18:18:02 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 18:18:16 [32minfo[39m: [32mSession Checkout créée: cs_test_b1W38wNkt6vYAtIfoh2HMdMWkUesXW8zW1ytlTezM2JiICtTVPh3BDxOzD pour user nouhasmaili@gmail.com[39m
+2025-11-09 18:24:39 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 18:24:39 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 18:24:39 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 18:24:39 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 18:24:39 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 18:24:42 [32minfo[39m: [32mSession Checkout créée: cs_test_b1NVfvSYWMcGSuKDreF6MsovQciVCGBGOaOXoDTQvUKS68LseT5DOxpU1d pour user nouhasmaili@gmail.com[39m
+2025-11-09 18:29:37 [32minfo[39m: [32mConnexion réussie: nouhasmaili@gmail.com[39m
+2025-11-09 18:29:49 [32minfo[39m: [32mSession Checkout créée: cs_test_b17rsBZr3mwFlR9aAGr9n6J41t0xUPlpCGl1mTjklQoqVgwHsQUjRwQPOT pour user nouhasmaili@gmail.com[39m
+2025-11-09 18:31:03 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 18:31:03 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 18:31:03 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 18:31:03 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 18:31:03 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 18:31:18 [32minfo[39m: [32mSession Checkout créée: cs_test_b1SQHW9WzqzGCJVQ4ghOHXVn1MW7M6tblm6CQbJeAAyLgFJPFwJ8wQ0PkI pour user nouhasmaili@gmail.com[39m
+2025-11-09 18:34:25 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 18:34:25 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 18:34:25 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 18:34:25 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 18:34:25 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 18:34:41 [32minfo[39m: [32mSession Checkout créée: cs_test_b131ymTzMAYsL4M6JP0TyB7wbVg6juABwq8QZPaxBFS35vks8ZyD5VEyR3 pour user nouhasmaili@gmail.com[39m
+2025-11-09 18:36:14 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 18:36:14 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 18:36:14 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 18:36:14 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 18:36:14 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 18:36:20 [32minfo[39m: [32mSession Checkout créée: cs_test_b1SfC0lVGs57NpotPZae4DRGcQy0FXQcVxpLfoCETcuvYApdCFMPsIzccl pour user nouhasmaili@gmail.com[39m
+2025-11-09 18:38:57 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 18:38:57 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 18:38:57 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 18:38:57 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 18:38:57 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-09 18:39:02 [32minfo[39m: [32mSession Checkout créée: cs_test_b1SLklw4uHoqj4NFu6bfst14wueBq07KgT3r8JWldhVRe1MlQPNZvrttk2 pour user nouhasmaili@gmail.com[39m
+2025-11-09 18:43:01 [32minfo[39m: [32mSession Checkout créée: cs_test_b14WDScotD54TTodgU7EClyaSIU6vh2UuPG8Xz6BL9JZxHgxjmLTx0BbmR pour user nouhasmaili@gmail.com[39m
 2025-11-09 15:57:27 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
 2025-11-09 15:57:27 [32minfo[39m: [32m Environnement: development[39m
 2025-11-09 15:57:27 [32minfo[39m: [32m URL: http://localhost:5000[39m
