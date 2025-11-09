@@ -105,3 +105,35 @@
 2025-11-08 15:46:53 [31merror[39m: [31mErreur traitement webhook: User validation failed: premiumExpiresAt: Cast to date failed for value "Invalid Date" (type Date) at path "premiumExpiresAt"[39m
 2025-11-08 15:53:56 [31merror[39m: [31m[STRIPE] Subscription sans current_period_end pour user ali@gmail.com[39m
 2025-11-08 15:57:39 [31merror[39m: [31m[STRIPE] Subscription sans current_period_end pour user ali@gmail.com[39m
+2025-11-09 14:48:56 [31merror[39m: [31mCet email est déjà utilisé[39m
+2025-11-09 14:49:02 [31merror[39m: [31mCet email est déjà utilisé[39m
+2025-11-09 14:49:10 [31merror[39m: [31mCet email est déjà utilisé[39m
+2025-11-09 16:32:11 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-09 16:32:27 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 16:51:04 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 16:51:17 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 16:52:27 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 17:02:03 [31merror[39m: [31mLe plan est requis, Plan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:10:25 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:11:32 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:14:26 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 17:16:27 [31merror[39m: [31mRoute non trouvée: /api/v1/auth[39m
+2025-11-09 17:17:43 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 17:17:54 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 17:18:04 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-09 17:19:07 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:19:30 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:20:10 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:20:19 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:28:30 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:30:42 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:30:46 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:31:09 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2025-11-09 17:31:26 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2025-11-09 17:34:24 [31merror[39m: [31mCannot read properties of undefined (reading 'id')[39m
+2025-11-09 17:34:42 [31merror[39m: [31mToken expiré[39m
+2025-11-09 17:35:56 [31merror[39m: [31mLe plan est requis, Plan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:36:52 [31merror[39m: [31mLe plan est requis, Plan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:37:28 [31merror[39m: [31mLe plan est requis, Plan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:38:42 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-09 17:43:52 [31merror[39m: [31mPlan invalide. Choix: monthly, quarterly, yearly[39m
