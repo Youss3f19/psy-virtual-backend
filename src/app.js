@@ -22,7 +22,19 @@ app.use(helmet());
 // CORS configuration
 app.use(
   cors({
-    origin: config.frontendUrl,
+    origin: function (origin, callback) {
+      // Autoriser toutes les origines en développement
+      if (config.env === 'development') {
+        return callback(null, true);
+      }
+      // En production, vérifier les origines autorisées
+      const allowedOrigins = [config.frontendUrl];
+      if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
     allowedHeaders: ['Content-Type', 'Authorization'],
