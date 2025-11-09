@@ -36,3 +36,72 @@
 2025-11-08 15:26:08 [31merror[39m: [31mRoute non trouvée: /favicon.ico[39m
 2025-11-08 15:26:17 [31merror[39m: [31mRoute non trouvée: /api/v1/billing/checkout[39m
 2025-11-08 15:28:35 [31merror[39m: [31mToken expiré[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:39 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:39 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:39 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:39 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:40 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:41:03 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:45:40 [31merror[39m: [31mToken expiré[39m
+2025-11-08 15:46:53 [31merror[39m: [31mErreur traitement webhook: User validation failed: premiumExpiresAt: Cast to date failed for value "Invalid Date" (type Date) at path "premiumExpiresAt"[39m
+2025-11-08 15:53:56 [31merror[39m: [31m[STRIPE] Subscription sans current_period_end pour user ali@gmail.com[39m
+2025-11-08 15:57:39 [31merror[39m: [31m[STRIPE] Subscription sans current_period_end pour user ali@gmail.com[39m

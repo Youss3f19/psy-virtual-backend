@@ -394,3 +394,148 @@
 2025-11-08 15:28:35 [31merror[39m: [31mToken expiré[39m
 2025-11-08 15:28:49 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
 2025-11-08 15:29:08 [32minfo[39m: [32mSession Checkout créée: cs_test_b1WYttIzW1LURk8hE7s9DnCjFTwEugqOwqlbSiVsxbmXary9Pzy2TOpeRX pour user ali@gmail.com[39m
+2025-11-08 15:39:06 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-08 15:39:06 [32minfo[39m: [32m Environnement: development[39m
+2025-11-08 15:39:06 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-08 15:39:06 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-08 15:39:06 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-08 15:39:11 [32minfo[39m: [32mSession Checkout créée: cs_test_b1RH8ro0O4gJdAIU4KxLPkKfi7Tbjub7Z9itok8MenQfOLAuDaDR9gD0kl pour user ali@gmail.com[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:38 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:39 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:39 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:39 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:39 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:40:40 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:41:03 [31merror[39m: [31mWebhook signature invalide: Webhook payload must be provided as a string or a Buffer (https://nodejs.org/api/buffer.html) instance representing the _raw_ request body.Payload was provided as a parsed JavaScript object instead. [39m
+[31mSignature verification is impossible without access to the original signed material. [39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-08 15:45:29 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-08 15:45:29 [32minfo[39m: [32m Environnement: development[39m
+2025-11-08 15:45:29 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-08 15:45:29 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-08 15:45:29 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-08 15:45:32 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-08 15:45:32 [32minfo[39m: [32m Environnement: development[39m
+2025-11-08 15:45:32 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-08 15:45:32 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-08 15:45:32 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-08 15:45:40 [31merror[39m: [31mToken expiré[39m
+2025-11-08 15:46:02 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-08 15:46:24 [32minfo[39m: [32mSession Checkout créée: cs_test_b1i8BkapnAtKV17Hw6BxHFlsW8TWfyjZxtaVQCUcbyi6DbxoO1DgLiJkMR pour user ali@gmail.com[39m
+2025-11-08 15:46:52 [32minfo[39m: [32mWebhook reçu: charge.succeeded[39m
+2025-11-08 15:46:53 [32minfo[39m: [32mWebhook reçu: payment_method.attached[39m
+2025-11-08 15:46:53 [32minfo[39m: [32mWebhook reçu: customer.created[39m
+2025-11-08 15:46:53 [32minfo[39m: [32mWebhook reçu: customer.updated[39m
+2025-11-08 15:46:53 [32minfo[39m: [32mWebhook reçu: customer.subscription.created[39m
+2025-11-08 15:46:53 [32minfo[39m: [32mWebhook reçu: checkout.session.completed[39m
+2025-11-08 15:46:53 [32minfo[39m: [32mWebhook reçu: payment_intent.succeeded[39m
+2025-11-08 15:46:53 [32minfo[39m: [32mWebhook reçu: payment_intent.created[39m
+2025-11-08 15:46:53 [32minfo[39m: [32mWebhook reçu: invoice.created[39m
+2025-11-08 15:46:53 [32minfo[39m: [32mWebhook reçu: invoice.finalized[39m
+2025-11-08 15:46:53 [32minfo[39m: [32mWebhook reçu: invoice.paid[39m
+2025-11-08 15:46:53 [32minfo[39m: [32mWebhook reçu: invoice.payment_succeeded[39m
+2025-11-08 15:46:53 [31merror[39m: [31mErreur traitement webhook: User validation failed: premiumExpiresAt: Cast to date failed for value "Invalid Date" (type Date) at path "premiumExpiresAt"[39m
+2025-11-08 15:46:59 [32minfo[39m: [32mWebhook reçu: invoice_payment.paid[39m
+2025-11-08 15:53:07 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-08 15:53:07 [32minfo[39m: [32m Environnement: development[39m
+2025-11-08 15:53:07 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-08 15:53:07 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-08 15:53:07 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-08 15:53:24 [32minfo[39m: [32mSession Checkout créée: cs_test_b1B5wezRpHOpaISdRiV74bCO8zfeRYFDGjH6UPCqA5z1QfBulEK8iXlQzQ pour user ali@gmail.com[39m
+2025-11-08 15:53:56 [32minfo[39m: [32mWebhook reçu: charge.succeeded[39m
+2025-11-08 15:53:56 [32minfo[39m: [32mWebhook reçu: payment_method.attached[39m
+2025-11-08 15:53:56 [32minfo[39m: [32mWebhook reçu: checkout.session.completed[39m
+2025-11-08 15:53:56 [32minfo[39m: [32mWebhook reçu: customer.created[39m
+2025-11-08 15:53:56 [32minfo[39m: [32mWebhook reçu: customer.updated[39m
+2025-11-08 15:53:56 [32minfo[39m: [32mWebhook reçu: customer.subscription.created[39m
+2025-11-08 15:53:56 [32minfo[39m: [32mWebhook reçu: payment_intent.succeeded[39m
+2025-11-08 15:53:56 [32minfo[39m: [32mWebhook reçu: payment_intent.created[39m
+2025-11-08 15:53:56 [31merror[39m: [31m[STRIPE] Subscription sans current_period_end pour user ali@gmail.com[39m
+2025-11-08 15:53:56 [32minfo[39m: [32mWebhook reçu: invoice.created[39m
+2025-11-08 15:53:56 [32minfo[39m: [32mWebhook reçu: invoice.finalized[39m
+2025-11-08 15:53:56 [32minfo[39m: [32mWebhook reçu: invoice.paid[39m
+2025-11-08 15:53:56 [32minfo[39m: [32mWebhook reçu: invoice.payment_succeeded[39m
+2025-11-08 15:54:05 [32minfo[39m: [32mWebhook reçu: invoice_payment.paid[39m
+2025-11-08 15:56:19 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-08 15:56:19 [32minfo[39m: [32m Environnement: development[39m
+2025-11-08 15:56:19 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-08 15:56:19 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-08 15:56:19 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-08 15:56:41 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-08 15:56:41 [32minfo[39m: [32m Environnement: development[39m
+2025-11-08 15:56:41 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-08 15:56:41 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-08 15:56:41 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-08 15:57:00 [32minfo[39m: [32mSession Checkout créée: cs_test_b1FUst4mTNSNwd5m1BNRDYGpTc0maMyCA4d2CVaizZUFJTTtt0bKuncAhZ pour user ali@gmail.com[39m
+2025-11-08 15:57:38 [32minfo[39m: [32mWebhook reçu: charge.succeeded[39m
+2025-11-08 15:57:38 [32minfo[39m: [32mWebhook reçu: payment_method.attached[39m
+2025-11-08 15:57:38 [32minfo[39m: [32mWebhook reçu: customer.created[39m
+2025-11-08 15:57:38 [32minfo[39m: [32mWebhook reçu: customer.updated[39m
+2025-11-08 15:57:39 [32minfo[39m: [32mWebhook reçu: customer.subscription.created[39m
+2025-11-08 15:57:39 [32minfo[39m: [32mWebhook reçu: payment_intent.succeeded[39m
+2025-11-08 15:57:39 [32minfo[39m: [32mWebhook reçu: payment_intent.created[39m
+2025-11-08 15:57:39 [32minfo[39m: [32mWebhook reçu: checkout.session.completed[39m
+2025-11-08 15:57:39 [32minfo[39m: [32mWebhook reçu: invoice.created[39m
+2025-11-08 15:57:39 [32minfo[39m: [32mWebhook reçu: invoice.finalized[39m
+2025-11-08 15:57:39 [32minfo[39m: [32mWebhook reçu: invoice.paid[39m
+2025-11-08 15:57:39 [32minfo[39m: [32mWebhook reçu: invoice.payment_succeeded[39m
+2025-11-08 15:57:39 [31merror[39m: [31m[STRIPE] Subscription sans current_period_end pour user ali@gmail.com[39m
+2025-11-08 15:58:03 [32minfo[39m: [32mWebhook reçu: invoice_payment.paid[39m
+2025-11-08 15:58:12 [32minfo[39m: [32mWebhook reçu: invoice_payment.paid[39m
+2025-11-09 11:59:02 [33mwarn[39m: [33m MongoDB déconnecté[39m
