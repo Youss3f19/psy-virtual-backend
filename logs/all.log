@@ -702,3 +702,73 @@
 2025-11-09 19:07:02 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
 2025-11-09 19:07:02 [32minfo[39m: [32m MongoDB connecté: localhost[39m
 2025-11-09 19:08:40 [32minfo[39m: [32mConnexion réussie: youssef@gmail.com[39m
+2025-11-09 19:56:33 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 19:56:33 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 19:56:33 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 19:56:33 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 19:56:33 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 08:22:03 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 08:23:15 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 08:24:00 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 08:43:50 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 08:43:50 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 08:43:50 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 08:43:50 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 08:43:50 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 08:44:32 [31merror[39m: [31mRoute non trouvée: /api/v1/voice[39m
+2025-11-10 08:45:15 [31merror[39m: [31mToken expiré[39m
+2025-11-10 08:45:24 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 08:50:51 [31merror[39m: [31mRoute non trouvée: /api/v1/chat/voice/[39m
+2025-11-10 08:50:55 [31merror[39m: [31mFichier audio requis[39m
+2025-11-10 08:51:14 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 08:55:12 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 08:55:12 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 08:55:12 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 08:55:12 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 08:55:12 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 08:55:23 [31merror[39m: [31mRequest failed with status code 500[39m
+2025-11-10 08:59:44 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-10 09:00:02 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-10 09:03:59 [31merror[39m: [31mToken expiré[39m
+2025-11-10 09:04:14 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 09:04:56 [31merror[39m: [31mFichier audio requis[39m
+2025-11-10 09:05:03 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-10 09:26:04 [31merror[39m: [31mToken expiré[39m
+2025-11-10 09:27:35 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 09:27:56 [31merror[39m: [31mFichier audio requis[39m
+2025-11-10 09:28:09 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-10 09:49:26 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 09:49:26 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 09:49:26 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 09:49:26 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 09:49:26 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 09:49:40 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 09:49:40 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 09:49:40 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 09:49:40 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 09:49:40 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 09:50:24 [31merror[39m: [31mToken expiré[39m
+2025-11-10 09:50:29 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 09:50:39 [31merror[39m: [31mFichier audio requis[39m
+2025-11-10 09:50:51 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-10 10:31:28 [31merror[39m: [31mToken expiré[39m
+2025-11-10 10:31:33 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 10:31:47 [31merror[39m: [31mFichier audio requis[39m
+2025-11-10 10:31:57 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-10 10:34:01 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:34:01 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:34:01 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:34:01 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:34:01 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:35:02 [31merror[39m: [31mField name missing[39m
+2025-11-10 10:35:14 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:35:14 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:35:14 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:35:14 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:35:14 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:35:16 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:35:16 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:35:16 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:35:16 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:35:16 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:35:21 [31merror[39m: [31mField name missing[39m

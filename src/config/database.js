@@ -8,8 +8,8 @@ const connectDB = async () => {
       useUnifiedTopology: true,
       serverSelectionTimeoutMS: 5000,
     };
-    console.log('🔍 MONGO_URI:', process.env.MONGO_URI);
-    await mongoose.connect(process.env.MONGO_URI, options);
+    console.log('MONGO_URI:', process.env.MONGODB_URI);
+    await mongoose.connect(process.env.MONGODB_URI, options);
 
     logger.info(` MongoDB connecté: ${mongoose.connection.host}`);
 
