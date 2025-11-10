@@ -997,3 +997,199 @@
 2025-11-09 21:39:43 [32minfo[39m: [32m MongoDB connecté: localhost[39m
 2025-11-09 21:42:56 [32minfo[39m: [32mConnexion réussie: youssef@gmail.com[39m
 >>>>>>> f38e57382151c1de36071f1d577a9c5e172acd99
+2025-11-10 10:52:06 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:52:06 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:52:06 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:52:06 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:52:06 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:52:14 [31merror[39m: [31mToken expiré[39m
+2025-11-10 10:52:21 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 10:52:33 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 10:52:58 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 10:53:23 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 10:53:35 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:53:35 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:53:35 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:53:35 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:53:35 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:54:09 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 10:54:40 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:54:40 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:54:40 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:54:40 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:54:40 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:54:57 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:54:57 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:54:57 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:54:57 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:54:57 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:55:02 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 10:55:22 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:55:22 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:55:22 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:55:22 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:55:22 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:55:28 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:55:28 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:55:28 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:55:28 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:55:28 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:55:38 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 10:58:53 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 10:59:20 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:59:20 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:59:20 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:59:20 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:59:20 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:59:23 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:59:23 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:59:23 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:59:23 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:59:23 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:59:25 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:59:25 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:59:25 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:59:25 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:59:25 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:59:28 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 11:00:10 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 11:02:26 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:02:26 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:02:26 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:02:26 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:02:26 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:02:35 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 11:04:14 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:04:14 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:04:14 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:04:14 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:04:14 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:04:24 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:04:24 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:04:24 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:04:24 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:04:24 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:04:42 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:04:42 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:04:42 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:04:42 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:04:42 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:06:45 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:06:45 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:06:45 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:06:45 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:06:45 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:07:50 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:07:50 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:07:50 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:07:50 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:07:50 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:07:58 [31merror[39m: [31mToken expiré[39m
+2025-11-10 11:08:06 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 11:08:21 [31merror[39m: [31mFichier audio requis[39m
+2025-11-10 11:08:35 [31merror[39m: [31mLimite journalière atteinte (2/2). Passez à Premium pour 10 sessions/jour ![39m
+2025-11-10 11:09:56 [31merror[39m: [31mLe mot de passe doit contenir au moins 6 caractères, Le mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
+2025-11-10 11:10:08 [32minfo[39m: [32mNouvel utilisateur créé: monji@gmail.com[39m
+2025-11-10 11:11:05 [31merror[39m: [31mField name missing[39m
+2025-11-10 11:13:42 [31merror[39m: [31mLimite journalière atteinte (2/2). Passez à Premium pour 10 sessions/jour ![39m
+2025-11-10 11:16:05 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:16:05 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:16:05 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:16:05 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:16:05 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:16:10 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:16:10 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:16:10 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:16:10 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:16:10 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:16:13 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:16:13 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:16:13 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:16:13 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:16:13 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:17:54 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:17:54 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:17:54 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:17:54 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:17:54 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:17:56 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:17:56 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:17:56 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:17:56 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:17:56 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:17:58 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:17:58 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:17:58 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:17:58 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:17:58 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:01 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:01 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:01 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:01 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:01 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:06 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:06 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:06 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:06 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:06 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:08 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:08 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:08 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:08 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:08 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:14 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:14 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:14 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:14 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:14 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:18 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:18 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:18 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:18 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:18 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:21 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:21 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:21 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:21 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:22 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:26 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:26 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:26 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:26 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:26 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:19:40 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:19:40 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:19:40 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:19:40 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:19:40 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:19:59 [31merror[39m: [31mLimite journaliere atteinte (2/2). Passez a Premium pour 10 sessions/jour ![39m
+2025-11-10 11:20:25 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:20:25 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:20:25 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:20:25 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:20:25 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:20:31 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:20:31 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:20:31 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:20:31 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:20:31 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:20:37 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:20:37 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:20:37 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:20:37 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:20:37 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:20:40 [31merror[39m: [31mLimite journaliere atteinte (2/2). Passez a Premium pour 10 sessions/jour ![39m
+2025-11-10 11:20:45 [31merror[39m: [31mLimite journaliere atteinte (2/2). Passez a Premium pour 10 sessions/jour ![39m
+2025-11-10 11:20:48 [31merror[39m: [31mRoute non trouvée: /api/v1/chat/voic[39m
+2025-11-10 11:20:53 [31merror[39m: [31mLimite journaliere atteinte (2/2). Passez a Premium pour 10 sessions/jour ![39m
+2025-11-10 11:21:31 [31merror[39m: [31mLimite journaliere atteinte (2/2). Passez a Premium pour 10 sessions/jour ![39m
+2025-11-10 11:21:57 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:21:57 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:21:57 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:21:57 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:21:57 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:22:42 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:22:42 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:22:42 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:22:42 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:22:42 [32minfo[39m: [32m MongoDB connecté: localhost[39m

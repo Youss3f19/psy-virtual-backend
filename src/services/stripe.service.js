@@ -22,7 +22,7 @@ class StripeService {
       success_url: `${process.env.FRONTEND_URL}/#/success`,
       cancel_url: `${process.env.FRONTEND_URL}/#/cancel`,
       metadata,
-      allow_promotion_codes: true, // Active les codes promo
+      allow_promotion_codes: true, 
     });
 
     return session;
