@@ -1,42 +1,28 @@
-const router = require('express').Router();
-const { upload } = require('../middleware/upload.middleware');
+const express = require('express');
 const { protect } = require('../middleware/auth.middleware');
-const { validateSessionOwnership } = require('../middleware/session.middleware');
-const { 
-  processVoiceCtrl, 
-  endSessionCtrl, 
-  listSessionsCtrl,
-  getSessionCtrl,      
-  deleteSessionCtrl    
-} = require('../controllers/voice.controller');
-const { processVoiceRules, endSessionRules } = require('../validators/voice.validator');
+const { uploadAudio } = require('../middleware/upload.middleware');
+const { loadSessionIfAny, enforceDailyQuota } = require('../middleware/session.middleware');
+const Voice = require('../controllers/voice.controller');
 
-// Route principale envoyer un message vocal
+const router = express.Router();
+
+// Historique et timeline 
+router.get('/sessions', protect, Voice.listSessionsCtrl);
+router.get('/sessions/:dbId/timeline', protect, Voice.getTimelineCtrl);
+router.get('/sessions/:dbId/audio/:messageId', protect, Voice.streamAudioCtrl);
+
+// Démarrage / flux / clôture d'une séance
+router.post('/sessions/start', protect, enforceDailyQuota, Voice.startSession);
+router.post('/sessions/voice', protect, uploadAudio, loadSessionIfAny, Voice.processVoiceCtrl);
 router.post(
-  '/voice', 
-  protect, 
-  upload.single('audio'), 
-  validateSessionOwnership,
-  processVoiceRules, 
-  processVoiceCtrl
+  '/sessions/:mlId/complete',
+  protect,
+  (req, _res, next) => { req.body.session_ml_id = req.params.mlId; next(); },
+  loadSessionIfAny,
+  Voice.endSessionCtrl
 );
 
-// Terminer une session et générer le plan de traitement
-router.post(
-  '/voice/end-session', 
-  protect, 
-  validateSessionOwnership,  
-  endSessionRules, 
-  endSessionCtrl
-);
-
-//  Lister toutes les sessions de l'utilisateur
-router.get('/voice/sessions', protect, listSessionsCtrl);
-
-// Obtenir une session spécifique (avec validation de propriété)
-router.get('/voice/sessions/:sessionId', protect, getSessionCtrl);
-
-// Supprimer une session (avec validation de propriété)
-router.delete('/voice/sessions/:sessionId', protect, deleteSessionCtrl);
+// Redémarrer une nouvelle séance à partir d’une close
+router.post('/sessions/restart', protect, Voice.restartFromPreviousCtrl);
 
 module.exports = router;

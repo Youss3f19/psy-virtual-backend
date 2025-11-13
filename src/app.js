@@ -10,7 +10,6 @@ const { errorConverter, errorHandler } = require('./middleware/error.middleware'
 const ApiError = require('./utils/apiError');
 const logger = require('./utils/logger');
 
-// Initialiser Express
 const app = express();
 
 // Configuration Passport
@@ -23,11 +22,9 @@ app.use(helmet());
 app.use(
   cors({
     origin: function (origin, callback) {
-      // Autoriser toutes les origines en développement
       if (config.env === 'development') {
         return callback(null, true);
       }
-      // En production, vérifier les origines autorisées
       const allowedOrigins = [config.frontendUrl];
       if (!origin || allowedOrigins.indexOf(origin) !== -1) {
         callback(null, true);
@@ -41,24 +38,28 @@ app.use(
   })
 );
 
-// Rate limiting
-const limiter = rateLimit({
-  windowMs: config.rateLimit.windowMs,
-  max: config.rateLimit.max,
-  message: 'Trop de requêtes depuis cette IP, veuillez réessayer plus tard',
-  standardHeaders: true,
-  legacyHeaders: false,
-});
-app.use('/api', limiter);
-
+// IMPORTANT: Webhook Stripe AVANT body parser JSON
+// Le webhook doit recevoir le body en format raw (Buffer)
 app.use(
   '/api/v1/billing/webhook',
   express.raw({ type: 'application/json' })
 );
 
-// Body parser
+// Body parser (pour toutes les autres routes)
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
+
+// Rate limiting (après webhook pour ne pas limiter Stripe)
+const limiter = rateLimit({
+  windowMs: config.rateLimit.windowMs,
+  max: config.rateLimit.max,
+  message: 'Trop de requetes depuis cette IP, veuillez reessayer plus tard',
+  standardHeaders: true,
+  legacyHeaders: false,
+  // Exclure le webhook du rate limiting
+  skip: (req) => req.path === '/api/v1/billing/webhook'
+});
+app.use('/api', limiter);
 
 // HTTP request logger
 if (config.env === 'development') {
@@ -89,7 +90,7 @@ app.get('/', (req, res) => {
 
 // 404 handler
 app.use((req, res, next) => {
-  next(ApiError.notFound(`Route non trouvée: ${req.originalUrl}`));
+  next(ApiError.notFound(`Route non trouvee: ${req.originalUrl}`));
 });
 
 // Error handling middlewares

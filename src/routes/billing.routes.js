@@ -29,8 +29,8 @@ router.post('/cancel', protect, BillingController.cancelSubscription);
 /**
  * @route   POST /api/v1/billing/webhook
  * @desc    Webhook Stripe
- * @access  Public (mais signature vérifiée)
+ * @access  Public 
  */
-router.post('/webhook', express.raw({ type: 'application/json' }), BillingController.handleWebhook);
+router.post('/webhook', BillingController.handleWebhook);
 
 module.exports = router;

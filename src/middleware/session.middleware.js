@@ -1,42 +1,21 @@
+// src/middleware/session.middleware.js
 const Session = require('../models/Session.model');
 const ApiError = require('../utils/apiError');
 
-/**
- * Middleware pour vérifier que la session appartient à l'utilisateur authentifié
- * Utilise req.body.session_id pour valider
- */
-async function validateSessionOwnership(req, res, next) {
-  try {
-    const sessionId = req.body.sessionId;
-    
-    if (!sessionId) {
-      return next();
-    }
-    
-    const userId = req.user.id;
-    
-    const sessionIdInt = parseInt(sessionId);
-    if (isNaN(sessionIdInt)) {
-      return next(ApiError.badRequest('session_id doit être un entier'));
-    }
-    
-    // Vérifier que la session existe et appartient à l'utilisateur
-    const session = await Session.findOne({
-      user: userId,
-      mlSessionId: sessionIdInt,
-      closedAt: null
-    });
-    
-    if (!session) {
-      return next(ApiError.forbidden('Session invalide ou non autorisée'));
-    }
-    
-    // Session valide, attacher à req pour utilisation dans le controller
-    req.validatedSession = session;
-    next();
-  } catch (error) {
-    next(error);
-  }
-}
+exports.loadSessionIfAny = async (req, _res, next) => {
+  const mlId = req.body.session_ml_id || req.query.session_ml_id || req.params.mlId;
+  if (!mlId) return next();
+  const s = await Session.findOne({ user: req.user.id, mlSessionId: Number(mlId) });
+  if (!s) return next(ApiError.notFound('Session introuvable'));
+  req.validatedSession = s;
+  next();
+};
 
-module.exports = { validateSessionOwnership };
+exports.enforceDailyQuota = async (req, _res, next) => {
+  const user = req.user;
+  if (user.isActivePremium && user.isActivePremium()) return next();
+  const y = new Date().toISOString().slice(0,10);
+  const count = await Session.countDocuments({ user: user.id, status: 'completed', sessionDate: y });
+  if (count >= 1) return next(ApiError.forbidden('Limite: 1 séance gratuite par jour'));
+  next();
+};
