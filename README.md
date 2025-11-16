@@ -12,3 +12,7 @@ API REST professionnelle pour l'application Psychologue Virtuel avec authentific
 
 ### Installation
 
+
+### running webhook
+stripe listen --forward-to localhost:5000/api/v1billing/webhook
+stripe trigger checkout.session.completed

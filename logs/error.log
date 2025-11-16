@@ -236,3 +236,342 @@
 2025-11-13 18:03:13 [31merror[39m: [31mError[39m
 2025-11-13 18:16:19 [31merror[39m: [31mError[39m
 2025-11-13 18:37:05 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-14 20:01:01 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 20:01:07 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 20:01:21 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 20:01:30 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 20:04:17 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 20:04:23 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 22:40:49 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 23:21:25 [31merror[39m: [31mToken expiré[39m
+2025-11-14 23:21:36 [31merror[39m: [31mToken expiré[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:34:18 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:38 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:38 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:38 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:38 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:40 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:42 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:17:16 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:27:21 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:55:56 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:56 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:56 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:56:54 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:59:16 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:16 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:16 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 23:00:04 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 23:13:54 [31merror[39m: [31mToken expiré[39m
+2025-11-15 23:16:31 [31merror[39m: [31mToken invalide[39m
+2025-11-15 23:16:42 [31merror[39m: [31mToken invalide[39m
+2025-11-15 23:17:30 [31merror[39m: [31mToken invalide[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:18 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:18 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:18 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:18 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:27 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 22:21:57 [31merror[39m: [31m[STRIPE] Subscription sans current_period_end pour user azza@gmail.com[39m
+2025-11-15 23:49:34 [31merror[39m: [31m[STRIPE] Subscription sans current_period_end pour user azza@gmail.com[39m
+2025-11-16 00:08:43 [31merror[39m: [31mLe plan est requis, Plan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-16 09:59:09 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:49 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:49 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:49 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:49 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 10:01:49 [31merror[39m: [31mStripe: Argument "subscription_exposed_id" must be a string, but got: null (on API request to `GET /v1/subscriptions/{subscription_exposed_id}`)[39m
+2025-11-16 10:14:24 [31merror[39m: [31mToken expiré[39m
+2025-11-16 10:14:34 [31merror[39m: [31mL'email est requis, Email invalide, Le mot de passe est requis[39m
+2025-11-16 10:15:12 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-16 10:15:20 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-16 10:19:40 [31merror[39m: [31mUser validation failed: premiumExpiresAt: Cast to date failed for value "Invalid Date" (type Date) at path "premiumExpiresAt"[39m
+2025-11-16 10:30:37 [31merror[39m: [31mToken expiré[39m
+2025-11-16 10:46:07 [31merror[39m: [31mToken expiré[39m
+2025-11-16 10:56:04 [31merror[39m: [31mser is not defined[39m
+2025-11-16 10:56:38 [31merror[39m: [31mapiResponse.error is not a function[39m
+2025-11-16 10:57:55 [31merror[39m: [31mapiResponse.error is not a function[39m
+2025-11-16 11:24:49 [31merror[39m: [31mToken expiré[39m
+2025-11-16 11:44:21 [31merror[39m: [31mToken expiré[39m
+2025-11-16 12:06:46 [31merror[39m: [31mToken expiré[39m
+2025-11-16 12:06:48 [31merror[39m: [31mToken expiré[39m
+2025-11-16 12:06:59 [31merror[39m: [31mToken expiré[39m
+2025-11-16 12:32:01 [31merror[39m: [31mToken expiré[39m
+2025-11-16 12:39:19 [31merror[39m: [31mToken expiré[39m
+2025-11-16 12:47:11 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/checkout[39m
+2025-11-16 12:47:11 [31merror[39m: [31mRoute non trouvee: /favicon.ico[39m

@@ -12,7 +12,8 @@ const userSchema = new mongoose.Schema({
 
   avatar: { type: String, default: null },
   authProvider: { type: String, enum: ['local','google','facebook'], default: 'local' },
-
+  
+  stripeSubscriptionId: { type: String, index: true, default: null },
   isPremium: { type: Boolean, default: false },
   premiumExpiresAt: { type: Date, default: null },
 

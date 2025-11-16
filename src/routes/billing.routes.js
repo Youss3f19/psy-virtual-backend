@@ -7,30 +7,18 @@ const { protect } = require('../middleware/auth.middleware');
 
 /**
  * @route   POST /api/v1/billing/checkout
- * @desc    Créer session Checkout Stripe
- * @access  Private
  */
 router.post('/checkout', protect, createCheckoutValidator, validate, BillingController.createCheckout);
 
 /**
  * @route   GET /api/v1/billing/session/:sessionId
- * @desc    Vérifier statut session
- * @access  Private
  */
 router.get('/session/:sessionId', protect, sessionIdValidator, validate, BillingController.getSessionStatus);
 
 /**
  * @route   POST /api/v1/billing/cancel
- * @desc    Annuler abonnement
- * @access  Private
  */
 router.post('/cancel', protect, BillingController.cancelSubscription);
 
-/**
- * @route   POST /api/v1/billing/webhook
- * @desc    Webhook Stripe
- * @access  Public 
- */
-router.post('/webhook', BillingController.handleWebhook);
 
 module.exports = router;
