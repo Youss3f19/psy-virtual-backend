@@ -144,3 +144,5 @@
 2025-11-09 16:07:36 [31merror[39m: [31mLe mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
 2025-11-09 16:07:46 [31merror[39m: [31mLe mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
 2025-11-09 17:33:02 [31merror[39m: [31mRoute non trouvée: /api/v1/[39m
+2025-11-10 12:33:04 [31merror[39m: [31mRoute non trouvée: /favicon.ico[39m
+2025-11-10 12:36:38 [31merror[39m: [31mRoute non trouvée: /inscription.html[39m
