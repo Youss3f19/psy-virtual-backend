@@ -1,21 +1,28 @@
-const router = require('express').Router();
-const { upload } = require('../middleware/upload.middleware');
-const { 
-  processVoiceCtrl, 
-  endSessionCtrl, 
-  listSessionsCtrl,
-  getSessionCtrl,      // ✅ Nouveau
-  deleteSessionCtrl    // ✅ Nouveau
-} = require('../controllers/voice.controller');
-const { processVoiceRules, endSessionRules } = require('../validators/voice.validator');
+const express = require('express');
 const { protect } = require('../middleware/auth.middleware');
+const { uploadAudio } = require('../middleware/upload.middleware');
+const { loadSessionIfAny, enforceDailyQuota } = require('../middleware/session.middleware');
+const Voice = require('../controllers/voice.controller');
 
-router.post('/voice', protect, upload.single('audio'), processVoiceRules, processVoiceCtrl);
-router.post('/voice/end-session', protect, endSessionRules, endSessionCtrl);
+const router = express.Router();
 
-// ✅ Routes d'historique
-router.get('/voice/sessions', protect, listSessionsCtrl);           // Liste des sessions
-router.get('/voice/sessions/:sessionId', protect, getSessionCtrl);  // ✅ Détail d'une session
-router.delete('/voice/sessions/:sessionId', protect, deleteSessionCtrl); // ✅ Supprimer
+// Historique et timeline 
+router.get('/sessions', protect, Voice.listSessionsCtrl);
+router.get('/sessions/:dbId/timeline', protect, Voice.getTimelineCtrl);
+router.get('/sessions/:dbId/audio/:messageId', protect, Voice.streamAudioCtrl);
+
+// Démarrage / flux / clôture d'une séance
+router.post('/sessions/start', protect, enforceDailyQuota, Voice.startSession);
+router.post('/sessions/voice', protect, uploadAudio, loadSessionIfAny, Voice.processVoiceCtrl);
+router.post(
+  '/sessions/:mlId/complete',
+  protect,
+  (req, _res, next) => { req.body.session_ml_id = req.params.mlId; next(); },
+  loadSessionIfAny,
+  Voice.endSessionCtrl
+);
+
+// Redémarrer une nouvelle séance à partir d’une close
+router.post('/sessions/restart', protect, Voice.restartFromPreviousCtrl);
 
 module.exports = router;

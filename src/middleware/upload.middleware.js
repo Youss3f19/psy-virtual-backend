@@ -1,14 +1,23 @@
-// src/middleware/upload.middleware.js
 const multer = require('multer');
 const path = require('path');
+const crypto = require('crypto');
+const fs = require('fs');
 
-const MAX_UPLOAD_MB = Number(process.env.MAX_UPLOAD_MB || 16);
+const UPLOAD_ROOT = path.join(process.cwd(), 'uploads');
+if (!fs.existsSync(UPLOAD_ROOT)) fs.mkdirSync(UPLOAD_ROOT, { recursive: true });
 
-// Extensions autorisées
-const allowedExt = new Set(['.wav', '.mp3', '.ogg', '.m4a', '.webm', '.flac']);
+const storage = multer.diskStorage({
+  destination: (_req, _file, cb) => cb(null, UPLOAD_ROOT),
+  filename: (_req, file, cb) => {
+    crypto.randomBytes(16, (err, buf) => {
+      if (err) return cb(err);
+      const ext = path.extname(file.originalname).toLowerCase();
+      cb(null, `${Date.now()}_${buf.toString('hex')}${ext}`);
+    });
+  }
+});
 
-// Mimetypes fréquents (selon OS / Postman)
-const allowedMime = new Set([
+const allowed = new Set([
   'audio/wav',
   'audio/x-wav',
   'audio/wave',
@@ -21,18 +30,8 @@ const allowedMime = new Set([
   'audio/flac',
   'application/octet-stream' 
 ]);
+const fileFilter = (_req, file, cb) => allowed.has(file.mimetype) ? cb(null, true) : cb(new Error('Type de fichier non autorisé'));
 
-const upload = multer({
-  dest: path.join(process.cwd(), 'tmp'),
-  limits: { fileSize: MAX_UPLOAD_MB * 1024 * 1024 },
-  fileFilter: (_req, file, cb) => {
-    const ext = path.extname(file.originalname || '').toLowerCase();
-    const ok = allowedMime.has(file.mimetype) || allowedExt.has(ext) || (file.mimetype || '').startsWith('audio/');
-    if (!ok) {
-      return cb(new Error('Format audio invalide (wav/mp3/ogg/m4a/webm/flac)'), false);
-    }
-    cb(null, true);
-  },
-});
-
-module.exports = { upload };
+exports.uploadAudio = multer({
+  storage, fileFilter, limits: { fileSize: 16 * 1024 * 1024 }
+}).single('audio');

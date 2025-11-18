@@ -702,6 +702,78 @@
 2025-11-09 19:07:02 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
 2025-11-09 19:07:02 [32minfo[39m: [32m MongoDB connecté: localhost[39m
 2025-11-09 19:08:40 [32minfo[39m: [32mConnexion réussie: youssef@gmail.com[39m
+<<<<<<< HEAD
+2025-11-09 19:56:33 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-09 19:56:33 [32minfo[39m: [32m Environnement: development[39m
+2025-11-09 19:56:33 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-09 19:56:33 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-09 19:56:33 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 08:22:03 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 08:23:15 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 08:24:00 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 08:43:50 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 08:43:50 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 08:43:50 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 08:43:50 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 08:43:50 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 08:44:32 [31merror[39m: [31mRoute non trouvée: /api/v1/voice[39m
+2025-11-10 08:45:15 [31merror[39m: [31mToken expiré[39m
+2025-11-10 08:45:24 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 08:50:51 [31merror[39m: [31mRoute non trouvée: /api/v1/chat/voice/[39m
+2025-11-10 08:50:55 [31merror[39m: [31mFichier audio requis[39m
+2025-11-10 08:51:14 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 08:55:12 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 08:55:12 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 08:55:12 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 08:55:12 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 08:55:12 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 08:55:23 [31merror[39m: [31mRequest failed with status code 500[39m
+2025-11-10 08:59:44 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-10 09:00:02 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-10 09:03:59 [31merror[39m: [31mToken expiré[39m
+2025-11-10 09:04:14 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 09:04:56 [31merror[39m: [31mFichier audio requis[39m
+2025-11-10 09:05:03 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-10 09:26:04 [31merror[39m: [31mToken expiré[39m
+2025-11-10 09:27:35 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 09:27:56 [31merror[39m: [31mFichier audio requis[39m
+2025-11-10 09:28:09 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-10 09:49:26 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 09:49:26 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 09:49:26 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 09:49:26 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 09:49:26 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 09:49:40 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 09:49:40 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 09:49:40 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 09:49:40 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 09:49:40 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 09:50:24 [31merror[39m: [31mToken expiré[39m
+2025-11-10 09:50:29 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 09:50:39 [31merror[39m: [31mFichier audio requis[39m
+2025-11-10 09:50:51 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-10 10:31:28 [31merror[39m: [31mToken expiré[39m
+2025-11-10 10:31:33 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 10:31:47 [31merror[39m: [31mFichier audio requis[39m
+2025-11-10 10:31:57 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-10 10:34:01 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:34:01 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:34:01 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:34:01 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:34:01 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:35:02 [31merror[39m: [31mField name missing[39m
+2025-11-10 10:35:14 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:35:14 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:35:14 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:35:14 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:35:14 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:35:16 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:35:16 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:35:16 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:35:16 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:35:16 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:35:21 [31merror[39m: [31mField name missing[39m
+=======
 2025-11-09 19:27:04 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
 2025-11-09 19:27:04 [32minfo[39m: [32m Environnement: development[39m
 2025-11-09 19:27:04 [32minfo[39m: [32m URL: http://localhost:5000[39m
@@ -924,6 +996,7 @@
 2025-11-09 21:39:43 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
 2025-11-09 21:39:43 [32minfo[39m: [32m MongoDB connecté: localhost[39m
 2025-11-09 21:42:56 [32minfo[39m: [32mConnexion réussie: youssef@gmail.com[39m
+<<<<<<< HEAD
 2025-11-10 08:48:02 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
 2025-11-10 08:48:02 [32minfo[39m: [32m Environnement: development[39m
 2025-11-10 08:48:02 [32minfo[39m: [32m URL: http://localhost:5000[39m
@@ -944,3 +1017,1135 @@
 2025-11-10 19:03:22 [33mwarn[39m: [33m MongoDB déconnecté[39m
 2025-11-11 08:35:33 [33mwarn[39m: [33m MongoDB déconnecté[39m
 2025-11-13 11:39:01 [33mwarn[39m: [33m MongoDB déconnecté[39m
+=======
+>>>>>>> f38e57382151c1de36071f1d577a9c5e172acd99
+2025-11-10 10:52:06 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:52:06 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:52:06 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:52:06 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:52:06 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:52:14 [31merror[39m: [31mToken expiré[39m
+2025-11-10 10:52:21 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 10:52:33 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 10:52:58 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 10:53:23 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 10:53:35 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:53:35 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:53:35 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:53:35 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:53:35 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:54:09 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 10:54:40 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:54:40 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:54:40 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:54:40 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:54:40 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:54:57 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:54:57 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:54:57 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:54:57 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:54:57 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:55:02 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 10:55:22 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:55:22 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:55:22 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:55:22 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:55:22 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:55:28 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:55:28 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:55:28 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:55:28 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:55:28 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:55:38 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 10:58:53 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 10:59:20 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:59:20 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:59:20 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:59:20 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:59:20 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:59:23 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:59:23 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:59:23 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:59:23 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:59:23 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:59:25 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 10:59:25 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 10:59:25 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 10:59:25 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 10:59:25 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 10:59:28 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 11:00:10 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 11:02:26 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:02:26 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:02:26 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:02:26 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:02:26 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:02:35 [31merror[39m: [31mApiError.badGateway is not a function[39m
+2025-11-10 11:04:14 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:04:14 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:04:14 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:04:14 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:04:14 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:04:24 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:04:24 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:04:24 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:04:24 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:04:24 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:04:42 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:04:42 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:04:42 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:04:42 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:04:42 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:06:45 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:06:45 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:06:45 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:06:45 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:06:45 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:07:50 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:07:50 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:07:50 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:07:50 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:07:50 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:07:58 [31merror[39m: [31mToken expiré[39m
+2025-11-10 11:08:06 [32minfo[39m: [32mConnexion réussie: ali@gmail.com[39m
+2025-11-10 11:08:21 [31merror[39m: [31mFichier audio requis[39m
+2025-11-10 11:08:35 [31merror[39m: [31mLimite journalière atteinte (2/2). Passez à Premium pour 10 sessions/jour ![39m
+2025-11-10 11:09:56 [31merror[39m: [31mLe mot de passe doit contenir au moins 6 caractères, Le mot de passe doit contenir au moins une majuscule, une minuscule et un chiffre[39m
+2025-11-10 11:10:08 [32minfo[39m: [32mNouvel utilisateur créé: monji@gmail.com[39m
+2025-11-10 11:11:05 [31merror[39m: [31mField name missing[39m
+2025-11-10 11:13:42 [31merror[39m: [31mLimite journalière atteinte (2/2). Passez à Premium pour 10 sessions/jour ![39m
+2025-11-10 11:16:05 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:16:05 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:16:05 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:16:05 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:16:05 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:16:10 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:16:10 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:16:10 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:16:10 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:16:10 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:16:13 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:16:13 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:16:13 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:16:13 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:16:13 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:17:54 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:17:54 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:17:54 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:17:54 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:17:54 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:17:56 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:17:56 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:17:56 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:17:56 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:17:56 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:17:58 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:17:58 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:17:58 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:17:58 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:17:58 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:01 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:01 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:01 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:01 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:01 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:06 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:06 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:06 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:06 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:06 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:08 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:08 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:08 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:08 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:08 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:14 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:14 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:14 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:14 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:14 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:18 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:18 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:18 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:18 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:18 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:21 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:21 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:21 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:21 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:22 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:18:26 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:18:26 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:18:26 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:18:26 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:18:26 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:19:40 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:19:40 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:19:40 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:19:40 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:19:40 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:19:59 [31merror[39m: [31mLimite journaliere atteinte (2/2). Passez a Premium pour 10 sessions/jour ![39m
+2025-11-10 11:20:25 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:20:25 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:20:25 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:20:25 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:20:25 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:20:31 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:20:31 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:20:31 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:20:31 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:20:31 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:20:37 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:20:37 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:20:37 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:20:37 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:20:37 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:20:40 [31merror[39m: [31mLimite journaliere atteinte (2/2). Passez a Premium pour 10 sessions/jour ![39m
+2025-11-10 11:20:45 [31merror[39m: [31mLimite journaliere atteinte (2/2). Passez a Premium pour 10 sessions/jour ![39m
+2025-11-10 11:20:48 [31merror[39m: [31mRoute non trouvée: /api/v1/chat/voic[39m
+2025-11-10 11:20:53 [31merror[39m: [31mLimite journaliere atteinte (2/2). Passez a Premium pour 10 sessions/jour ![39m
+2025-11-10 11:21:31 [31merror[39m: [31mLimite journaliere atteinte (2/2). Passez a Premium pour 10 sessions/jour ![39m
+2025-11-10 11:21:57 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:21:57 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:21:57 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:21:57 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:21:57 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:22:42 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:22:42 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:22:42 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:22:42 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:22:42 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:22:45 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:22:45 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:22:45 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:22:45 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:22:45 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:22:52 [31merror[39m: [31mSession invalide ou non autorisée[39m
+2025-11-10 11:27:19 [31merror[39m: [31mLe plan est requis, Plan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-10 11:27:34 [31merror[39m: [31mLe plan est requis, Plan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-10 11:28:18 [31merror[39m: [31mLe plan est requis, Plan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-10 11:28:37 [32minfo[39m: [32mSession Checkout créée: cs_test_b10kSvMTTXW2qtCA1Zc66HbstGQuspFJITCzOJ854MqSGyv3YVfKfZKoGu pour user monji@gmail.com[39m
+2025-11-10 11:33:52 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:33:52 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:33:52 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:33:52 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:33:52 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:34:35 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:34:35 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:34:35 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:34:35 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:34:35 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:34:40 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-10 11:34:40 [32minfo[39m: [32m Environnement: development[39m
+2025-11-10 11:34:40 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-10 11:34:40 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-10 11:34:40 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-10 11:36:46 [32minfo[39m: [32mSession Checkout créée: cs_test_b1obDBrjkcR1YSxkXnen9bWNotJscqQFOBNlmSqDB4tmVBJqNRVHy4oFUN pour user monji@gmail.com[39m
+2025-11-10 11:43:33 [31merror[39m: [31mLimite journaliere atteinte (2/2). Passez a Premium pour 10 sessions/jour ![39m
+2025-11-10 11:44:46 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-10 11:44:55 [32minfo[39m: [32mNouvel utilisateur créé: bile@gmail.com[39m
+2025-11-10 12:36:24 [31merror[39m: [31mRoute non trouvee: /inscription[39m
+2025-11-10 12:36:34 [31merror[39m: [31mRoute non trouvee: /inscription[39m
+2025-11-10 17:13:47 [33mwarn[39m: [33m MongoDB déconnecté[39m
+2025-11-10 18:23:20 [33mwarn[39m: [33m MongoDB déconnecté[39m
+2025-11-11 08:53:24 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-11 08:53:24 [32minfo[39m: [32m Environnement: development[39m
+2025-11-11 08:53:24 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-11 08:53:24 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-11 08:53:24 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 12:06:12 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 12:06:12 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 12:06:12 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 12:06:12 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 12:06:12 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 12:11:59 [32minfo[39m: [32mNouvel utilisateur créé: nouha@gmail.com[39m
+2025-11-13 13:43:22 [33mwarn[39m: [33m MongoDB déconnecté[39m
+2025-11-13 14:40:29 [31merror[39m: [31mError[39m
+2025-11-13 14:44:39 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 14:44:39 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 14:44:39 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 14:44:39 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 14:44:39 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 14:54:21 [31merror[39m: [31mCannot read properties of undefined (reading 'sessionId')[39m
+2025-11-13 14:54:38 [31merror[39m: [31mCannot read properties of undefined (reading 'sessionId')[39m
+2025-11-13 14:55:07 [31merror[39m: [31mErreur de validation[39m
+2025-11-13 14:55:40 [31merror[39m: [31mErreur de validation[39m
+2025-11-13 14:56:57 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 14:56:57 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 14:56:57 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 14:56:57 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 14:56:57 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 14:57:04 [31merror[39m: [31mErreur de validation[39m
+2025-11-13 14:57:10 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 14:57:10 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 14:57:10 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 14:57:10 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 14:57:10 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 14:58:18 [31merror[39m: [31mCannot read properties of undefined (reading 'sessionId')[39m
+2025-11-13 14:58:22 [31merror[39m: [31mSession invalide ou non autorisée[39m
+2025-11-13 14:58:30 [31merror[39m: [31mErreur de validation[39m
+2025-11-13 15:00:09 [31merror[39m: [31mRoute non trouvee: /api/voice/end-session[39m
+2025-11-13 15:00:15 [31merror[39m: [31mSession invalide ou non autorisée[39m
+2025-11-13 15:00:37 [31merror[39m: [31mSession invalide ou non autorisée[39m
+2025-11-13 15:00:43 [31merror[39m: [31mErreur de validation[39m
+2025-11-13 15:02:09 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:02:09 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:02:09 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:02:09 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:02:09 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:02:25 [31merror[39m: [31mErreur de validation[39m
+2025-11-13 15:02:33 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:02:33 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:02:33 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:02:33 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:02:33 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:04:42 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:04:42 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:04:42 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:04:42 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:04:42 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:04:43 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:04:43 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:04:43 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:04:43 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:04:43 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:04:48 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:04:48 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:04:48 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:04:48 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:04:49 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:04:52 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:04:52 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:04:52 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:04:52 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:04:52 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:04:53 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:04:53 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:04:53 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:04:53 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:04:53 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:14:00 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:14:00 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:14:00 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:14:00 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:14:00 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:14:18 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:14:18 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:14:18 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:14:18 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:14:18 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:16:19 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:16:19 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:16:19 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:16:19 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:16:19 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:16:25 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:16:25 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:16:25 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:16:25 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:16:25 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:16:26 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:16:26 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:16:26 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:16:26 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:16:26 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:16:28 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:16:28 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:16:28 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:16:28 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:16:28 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:24:40 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:24:40 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:24:40 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:24:40 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:24:40 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:24:53 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:24:53 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:24:53 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:24:53 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:24:53 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:26:17 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:26:17 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:26:17 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:26:17 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:26:17 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:26:46 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/voice/end-session[39m
+2025-11-13 15:27:03 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:27:03 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:27:03 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:27:03 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:27:03 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:27:03 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:27:03 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:27:03 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:27:03 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:27:04 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:27:12 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/voice/start[39m
+2025-11-13 15:28:35 [31merror[39m: [31mType de fichier non autorisé[39m
+2025-11-13 15:28:47 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:28:47 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:28:47 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:28:47 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:28:47 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:29:03 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:29:03 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:29:03 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:29:03 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:29:03 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:29:10 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:29:10 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:29:10 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:29:10 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:29:10 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:29:12 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:29:12 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:29:12 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:29:12 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:29:12 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:29:13 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:29:13 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:29:13 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:29:13 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:29:13 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:29:17 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/sessions/voice[39m
+2025-11-13 15:29:39 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:29:39 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:29:39 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:29:39 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:29:39 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:39:38 [31merror[39m: [31mCannot set properties of undefined (setting 'session_ml_id')[39m
+2025-11-13 15:39:52 [31merror[39m: [31mCannot set properties of undefined (setting 'session_ml_id')[39m
+2025-11-13 15:40:02 [31merror[39m: [31mCannot set properties of undefined (setting 'session_ml_id')[39m
+2025-11-13 15:40:17 [31merror[39m: [31mCannot set properties of undefined (setting 'session_ml_id')[39m
+2025-11-13 15:40:22 [31merror[39m: [31mCannot set properties of undefined (setting 'session_ml_id')[39m
+2025-11-13 15:40:57 [31merror[39m: [31mCannot set properties of undefined (setting 'session_ml_id')[39m
+2025-11-13 15:41:30 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:41:30 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:41:30 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:41:30 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:41:30 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:41:35 [31merror[39m: [31mCannot read properties of undefined (reading 'session_ml_id')[39m
+2025-11-13 15:41:55 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:41:55 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:41:55 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:41:55 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:41:55 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:41:59 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:41:59 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:41:59 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:41:59 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:41:59 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:42:02 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 15:42:02 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 15:42:02 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 15:42:02 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 15:42:02 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 15:42:27 [31merror[39m: [31mSession introuvable[39m
+2025-11-13 15:42:34 [31merror[39m: [31mSession introuvable[39m
+2025-11-13 15:42:45 [31merror[39m: [31mSession introuvable[39m
+2025-11-13 15:42:52 [31merror[39m: [31mSession introuvable[39m
+2025-11-13 16:09:02 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 16:09:02 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 16:09:02 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 16:09:02 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 16:09:02 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 16:09:09 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 16:09:09 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 16:09:09 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 16:09:09 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 16:09:09 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 16:09:12 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 16:09:12 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 16:09:12 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 16:09:12 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 16:09:12 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 16:23:56 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/sessions/6915f76e7b162718d3be18cc/timeline[39m
+2025-11-13 16:39:43 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 16:39:43 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 16:39:43 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 16:39:43 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 16:39:43 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 16:39:48 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 16:39:48 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 16:39:48 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 16:39:48 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 16:39:48 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 16:40:10 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 16:40:10 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 16:40:10 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 16:40:10 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 16:40:10 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 16:40:11 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 16:40:11 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 16:40:11 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 16:40:11 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 16:40:11 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 16:50:29 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 16:50:29 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 16:50:29 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 16:50:29 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 16:50:29 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 16:53:57 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 16:53:57 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 16:53:57 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 16:53:57 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 16:53:57 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 16:54:03 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 16:54:03 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 16:54:03 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 16:54:03 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 16:54:03 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 17:06:09 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 17:06:09 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 17:06:09 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 17:06:09 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 17:06:09 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 17:16:32 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-13 17:20:03 [31merror[39m: [31mSession introuvable[39m
+2025-11-13 17:20:07 [31merror[39m: [31mSession introuvable[39m
+2025-11-13 17:33:07 [31merror[39m: [31mRoute non trouvee: /api/v1/sessions/17/complete[39m
+2025-11-13 17:33:23 [31merror[39m: [31mCannot set properties of undefined (setting 'session_ml_id')[39m
+2025-11-13 18:03:13 [31merror[39m: [31mError[39m
+2025-11-13 18:16:19 [31merror[39m: [31mError[39m
+2025-11-13 18:28:02 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 18:28:02 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 18:28:02 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 18:28:02 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 18:28:02 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-13 18:37:05 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-13 19:04:14 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-13 19:04:14 [32minfo[39m: [32m Environnement: development[39m
+2025-11-13 19:04:14 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-13 19:04:14 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-13 19:04:14 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-14 19:56:41 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-14 19:56:41 [32minfo[39m: [32m Environnement: development[39m
+2025-11-14 19:56:41 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-14 19:56:41 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-14 19:56:41 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-14 20:01:01 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 20:01:07 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 20:01:21 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 20:01:30 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 20:04:17 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 20:04:23 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 20:04:56 [32minfo[39m: [32mNouvel utilisateur créé: azza@gmail.com[39m
+2025-11-14 20:05:07 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-14 22:40:19 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-14 22:40:19 [32minfo[39m: [32m Environnement: development[39m
+2025-11-14 22:40:19 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-14 22:40:19 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-14 22:40:19 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-14 22:40:49 [31merror[39m: [31mEmail ou mot de passe incorrect[39m
+2025-11-14 22:40:59 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-14 22:41:15 [32minfo[39m: [32mSession Checkout créée: cs_test_b1V1xfGRqUMHMwjUma3USBoBjs4Yw0qY9pLH4q8LCv8T6JeMcYXXNw8WRi pour user azza@gmail.com[39m
+2025-11-14 22:48:22 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-14 22:48:22 [32minfo[39m: [32m Environnement: development[39m
+2025-11-14 22:48:22 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-14 22:48:22 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-14 22:48:22 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-14 22:48:52 [32minfo[39m: [32mSession Checkout créée: cs_test_b1102fc0ksp3MBnD0SwWRcc1deOqRSlWRfxElGadCjYpqVasbb8ZQSj56G pour user azza@gmail.com[39m
+2025-11-14 22:50:23 [32minfo[39m: [32mSession Checkout créée: cs_test_b19hfxVL0MUxId9WBN2pv1MGaT3P87pVcSoQgQLusmOB8nRY74ToLcDS4A pour user azza@gmail.com[39m
+2025-11-14 23:21:20 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-14 23:21:20 [32minfo[39m: [32m Environnement: development[39m
+2025-11-14 23:21:20 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-14 23:21:20 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-14 23:21:20 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-14 23:21:25 [31merror[39m: [31mToken expiré[39m
+2025-11-14 23:21:36 [31merror[39m: [31mToken expiré[39m
+2025-11-14 23:23:20 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-14 23:23:28 [32minfo[39m: [32mSession Checkout créée: cs_test_b1pm7OCLNeMWUaYcWKqD33Wmk6OqWUxzz5TmNAevTW6R4NMZejMreNnj2A pour user azza@gmail.com[39m
+2025-11-14 23:24:36 [32minfo[39m: [32mSession Checkout créée: cs_test_b19RNpYkRW2WbsrCcVDUoTGYiMQas3xM18c3DGNd3ssFKOrAU5JpwDY6aV pour user azza@gmail.com[39m
+2025-11-14 23:28:40 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-14 23:28:40 [32minfo[39m: [32m Environnement: development[39m
+2025-11-14 23:28:40 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-14 23:28:40 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-14 23:28:40 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-14 23:28:57 [32minfo[39m: [32mSession Checkout créée: cs_test_b1UXqcUXSZpg8SuHJaWvzHaOKNIAjljTevYSmWDOqV6BtLFdzzcu6XyMQM pour user azza@gmail.com[39m
+2025-11-14 23:33:02 [32minfo[39m: [32mSession Checkout créée: cs_test_b1XXlXWdJC5lyrlUY3rAYCwAKSv8RaPidroqGEISx3lnIbqoQor8WKQJGt pour user azza@gmail.com[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:33:22 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-14 23:34:18 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 08:43:58 [33mwarn[39m: [33m MongoDB déconnecté[39m
+2025-11-15 22:14:11 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-15 22:14:11 [32minfo[39m: [32m Environnement: development[39m
+2025-11-15 22:14:11 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-15 22:14:11 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-15 22:14:11 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-15 22:15:07 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-15 22:16:15 [32minfo[39m: [32mSession Checkout créée: cs_test_b1OG1T7tHbUci3sdDyKcsSNltNLYdOm0DEJamNcgKvtoxY7oqubvhZVvDL pour user azza@gmail.com[39m
+2025-11-15 22:16:38 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:38 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:38 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:38 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:39 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:40 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:16:42 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:17:16 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:11 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-15 22:26:11 [32minfo[39m: [32m Environnement: development[39m
+2025-11-15 22:26:11 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-15 22:26:11 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-15 22:26:11 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-15 22:26:37 [32minfo[39m: [32mSession Checkout créée: cs_test_b1zAuASWf4qqamtpjL44WXd7qHOJqhGoYXyiXXoyUk29kST2MfhjieNsVQ pour user azza@gmail.com[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:26:58 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:27:21 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:54:17 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-15 22:54:17 [32minfo[39m: [32m Environnement: development[39m
+2025-11-15 22:54:17 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-15 22:54:17 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-15 22:54:17 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-15 22:55:24 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-15 22:55:34 [32minfo[39m: [32mSession Checkout créée: cs_test_b1oGmOTof3OowKKz1OcrSJKEWXHN9SE5us25A4XNPh5LisY0GQvfRYMhhV pour user azza@gmail.com[39m
+2025-11-15 22:55:56 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:56 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:56 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:55:57 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:56:54 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/webhook[39m
+2025-11-15 22:58:36 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-15 22:58:36 [32minfo[39m: [32m Environnement: development[39m
+2025-11-15 22:58:36 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-15 22:58:36 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-15 22:58:36 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-15 22:58:54 [32minfo[39m: [32mSession Checkout créée: cs_test_b1z32RuvWDvrR4rbnbPq03inixjjt3qPFIvy4eOCGOFDwIEPmnA6umiWZN pour user azza@gmail.com[39m
+2025-11-15 22:59:16 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:16 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:16 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 22:59:17 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 23:00:04 [31merror[39m: [31mWebhook signature invalide: No signatures found matching the expected signature for payload. Are you passing the raw request body you received from Stripe? [39m
+[31m If a webhook request is being forwarded by a third-party tool, ensure that the exact request body, including JSON formatting and new line style, is preserved.[39m
+
+[31mLearn more about webhook signing and explore webhook integration examples for various frameworks at https://docs.stripe.com/webhooks/signature[39m
+[31m[39m
+2025-11-15 23:13:49 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-15 23:13:49 [32minfo[39m: [32m Environnement: development[39m
+2025-11-15 23:13:49 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-15 23:13:49 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-15 23:13:49 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-15 23:13:54 [31merror[39m: [31mToken expiré[39m
+2025-11-15 23:16:31 [31merror[39m: [31mToken invalide[39m
+2025-11-15 23:16:42 [31merror[39m: [31mToken invalide[39m
+2025-11-15 23:17:21 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-15 23:17:30 [31merror[39m: [31mToken invalide[39m
+2025-11-15 23:17:52 [32minfo[39m: [32mSession Checkout créée: cs_test_b1X6tbmXRmN5EiB66zy7QlywyhuTuwPn646U8GqYWl30oXWANMMByzI67f pour user azza@gmail.com[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:17 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:18 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:18 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:18 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:18 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 23:18:27 [31merror[39m: [31mWebhook signature invalide: Timestamp outside the tolerance zone[39m
+2025-11-15 22:21:20 [33mwarn[39m: [33m MongoDB déconnecté[39m
+2025-11-15 22:21:27 [32minfo[39m: [32mSession Checkout créée: cs_test_b15bLaV2gxzujeWlIJUg7EnP1d6qebS9YvtqDwWa3X2J6S2J2rH1AY4LNW pour user azza@gmail.com[39m
+2025-11-15 22:21:56 [32minfo[39m: [32mWebhook reçu: charge.succeeded[39m
+2025-11-15 22:21:56 [32minfo[39m: [32mWebhook reçu: payment_method.attached[39m
+2025-11-15 22:21:56 [32minfo[39m: [32mWebhook reçu: customer.created[39m
+2025-11-15 22:21:56 [32minfo[39m: [32mWebhook reçu: customer.updated[39m
+2025-11-15 22:21:56 [32minfo[39m: [32mWebhook reçu: customer.subscription.created[39m
+2025-11-15 22:21:56 [32minfo[39m: [32mWebhook reçu: payment_intent.succeeded[39m
+2025-11-15 22:21:56 [32minfo[39m: [32mWebhook reçu: checkout.session.completed[39m
+2025-11-15 22:21:56 [32minfo[39m: [32mWebhook reçu: invoice.created[39m
+2025-11-15 22:21:57 [32minfo[39m: [32mWebhook reçu: payment_intent.created[39m
+2025-11-15 22:21:57 [32minfo[39m: [32mWebhook reçu: invoice.finalized[39m
+2025-11-15 22:21:57 [32minfo[39m: [32mWebhook reçu: invoice.paid[39m
+2025-11-15 22:21:57 [32minfo[39m: [32mWebhook reçu: invoice.payment_succeeded[39m
+2025-11-15 22:21:57 [31merror[39m: [31m[STRIPE] Subscription sans current_period_end pour user azza@gmail.com[39m
+2025-11-15 22:22:32 [32minfo[39m: [32mWebhook reçu: invoice_payment.paid[39m
+2025-11-15 22:22:45 [32minfo[39m: [32mWebhook reçu: invoice_payment.paid[39m
+2025-11-15 23:47:54 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-15 23:47:54 [32minfo[39m: [32m Environnement: development[39m
+2025-11-15 23:47:54 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-15 23:47:54 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-15 23:47:54 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-15 23:48:58 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-15 23:49:09 [32minfo[39m: [32mSession Checkout créée: cs_test_b13cXnAqldYc8Uo0psz4Sn5uBVTegyIVoTCUYzbhyb02PLqaRhDF1J5VJP pour user azza@gmail.com[39m
+2025-11-15 23:49:33 [32minfo[39m: [32mWebhook reçu: charge.succeeded[39m
+2025-11-15 23:49:34 [32minfo[39m: [32mWebhook reçu: payment_method.attached[39m
+2025-11-15 23:49:34 [32minfo[39m: [32mWebhook reçu: customer.created[39m
+2025-11-15 23:49:34 [32minfo[39m: [32mWebhook reçu: customer.updated[39m
+2025-11-15 23:49:34 [32minfo[39m: [32mWebhook reçu: checkout.session.completed[39m
+2025-11-15 23:49:34 [32minfo[39m: [32m[Stripe] data subscriptionId:[39m
+2025-11-15 23:49:34 [32minfo[39m: [32mWebhook reçu: customer.subscription.created[39m
+2025-11-15 23:49:34 [32minfo[39m: [32mWebhook reçu: payment_intent.succeeded[39m
+2025-11-15 23:49:34 [32minfo[39m: [32mWebhook reçu: payment_intent.created[39m
+2025-11-15 23:49:34 [32minfo[39m: [32mWebhook reçu: invoice.created[39m
+2025-11-15 23:49:34 [32minfo[39m: [32mWebhook reçu: invoice.finalized[39m
+2025-11-15 23:49:34 [32minfo[39m: [32m[Stripe] customerEmail pour update:[39m
+2025-11-15 23:49:34 [32minfo[39m: [32m[Stripe] User trouvé:[39m
+2025-11-15 23:49:34 [32minfo[39m: [32m[Stripe] periodEndSec:[39m
+2025-11-15 23:49:34 [31merror[39m: [31m[STRIPE] Subscription sans current_period_end pour user azza@gmail.com[39m
+2025-11-15 23:49:34 [32minfo[39m: [32mWebhook reçu: invoice.paid[39m
+2025-11-15 23:49:34 [32minfo[39m: [32m[Stripe] data subscriptionId:[39m
+2025-11-15 23:49:35 [32minfo[39m: [32mWebhook reçu: invoice.payment_succeeded[39m
+2025-11-15 23:49:51 [32minfo[39m: [32mWebhook reçu: invoice_payment.paid[39m
+2025-11-15 23:52:36 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-15 23:52:36 [32minfo[39m: [32m Environnement: development[39m
+2025-11-15 23:52:36 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-15 23:52:36 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-15 23:52:36 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-15 23:52:43 [32minfo[39m: [32mSession Checkout créée: cs_test_b11k3adbmt6PHCkQrYWQc34QXgEfxrEAE7dN7aNmvXY0W6Z2Nq7V96WG9y pour user azza@gmail.com[39m
+2025-11-15 23:53:07 [32minfo[39m: [32mWebhook reçu: charge.succeeded[39m
+2025-11-15 23:53:08 [32minfo[39m: [32mWebhook reçu: payment_method.attached[39m
+2025-11-15 23:53:08 [32minfo[39m: [32mWebhook reçu: customer.created[39m
+2025-11-15 23:53:08 [32minfo[39m: [32mWebhook reçu: customer.updated[39m
+2025-11-15 23:53:08 [32minfo[39m: [32mWebhook reçu: customer.subscription.created[39m
+2025-11-15 23:53:08 [32minfo[39m: [32mWebhook reçu: payment_intent.succeeded[39m
+2025-11-15 23:53:08 [32minfo[39m: [32mWebhook reçu: payment_intent.created[39m
+2025-11-15 23:53:08 [32minfo[39m: [32mWebhook reçu: invoice.created[39m
+2025-11-15 23:53:08 [32minfo[39m: [32mWebhook reçu: invoice.finalized[39m
+2025-11-15 23:53:08 [32minfo[39m: [32mWebhook reçu: invoice.paid[39m
+2025-11-15 23:53:08 [32minfo[39m: [32m[Stripe] invoice.subscriptionId:[39m
+2025-11-15 23:53:08 [32minfo[39m: [32mWebhook reçu: checkout.session.completed[39m
+2025-11-15 23:53:08 [32minfo[39m: [32mWebhook reçu: invoice.payment_succeeded[39m
+2025-11-15 23:53:29 [32minfo[39m: [32mWebhook reçu: invoice_payment.paid[39m
+2025-11-15 23:55:39 [32minfo[39m: [32mSession Checkout créée: cs_test_b1bKz1TfmDPkSCzuI5HwONNlHZXSFTv0qDphzxwjgoRNap5KDPJvBTrBUh pour user azza@gmail.com[39m
+2025-11-15 23:56:07 [32minfo[39m: [32mWebhook reçu: charge.succeeded[39m
+2025-11-15 23:56:07 [32minfo[39m: [32mWebhook reçu: payment_method.attached[39m
+2025-11-15 23:56:07 [32minfo[39m: [32mWebhook reçu: customer.created[39m
+2025-11-15 23:56:07 [32minfo[39m: [32mWebhook reçu: customer.updated[39m
+2025-11-15 23:56:07 [32minfo[39m: [32mWebhook reçu: customer.subscription.created[39m
+2025-11-15 23:56:07 [32minfo[39m: [32mWebhook reçu: payment_intent.succeeded[39m
+2025-11-15 23:56:07 [32minfo[39m: [32mWebhook reçu: payment_intent.created[39m
+2025-11-15 23:56:07 [32minfo[39m: [32mWebhook reçu: invoice.created[39m
+2025-11-15 23:56:07 [32minfo[39m: [32mWebhook reçu: invoice.finalized[39m
+2025-11-15 23:56:07 [32minfo[39m: [32mWebhook reçu: checkout.session.completed[39m
+2025-11-15 23:56:07 [32minfo[39m: [32mWebhook reçu: invoice.paid[39m
+2025-11-15 23:56:07 [32minfo[39m: [32m[Stripe] invoice.subscriptionId:[39m
+2025-11-15 23:56:07 [32minfo[39m: [32mWebhook reçu: invoice.payment_succeeded[39m
+2025-11-15 23:56:54 [32minfo[39m: [32mWebhook reçu: invoice_payment.paid[39m
+2025-11-16 00:07:34 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 00:07:34 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 00:07:34 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 00:07:34 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 00:07:35 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 00:07:40 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-16 00:08:43 [31merror[39m: [31mLe plan est requis, Plan invalide. Choix: monthly, quarterly, yearly[39m
+2025-11-16 00:09:16 [32minfo[39m: [32mSession Checkout créée: cs_test_b1TyHLVklp87eCO9m7pqPyi86rbS6teQp27fXxTd1aqXGm9UamYBQaDQOo pour user azza@gmail.com[39m
+2025-11-16 00:12:39 [32minfo[39m: [32mWebhook reçu: charge.succeeded[39m
+2025-11-16 00:12:39 [32minfo[39m: [32mWebhook reçu: payment_method.attached[39m
+2025-11-16 00:12:39 [32minfo[39m: [32mWebhook reçu: customer.created[39m
+2025-11-16 00:12:39 [32minfo[39m: [32mWebhook reçu: customer.updated[39m
+2025-11-16 00:12:39 [32minfo[39m: [32mWebhook reçu: customer.subscription.created[39m
+2025-11-16 00:12:39 [32minfo[39m: [32mWebhook reçu: payment_intent.succeeded[39m
+2025-11-16 00:12:39 [32minfo[39m: [32mWebhook reçu: payment_intent.created[39m
+2025-11-16 00:12:39 [32minfo[39m: [32mWebhook reçu: invoice.created[39m
+2025-11-16 00:12:39 [32minfo[39m: [32mWebhook reçu: checkout.session.completed[39m
+2025-11-16 00:12:39 [32minfo[39m: [32mWebhook reçu: invoice.finalized[39m
+2025-11-16 00:12:39 [32minfo[39m: [32mWebhook reçu: invoice.paid[39m
+2025-11-16 00:12:39 [32minfo[39m: [32m[Stripe] invoice.subscriptionId:[39m
+2025-11-16 00:12:39 [32minfo[39m: [32m[Stripe] INVOICE RECEIVED:[39m
+2025-11-16 00:12:39 [32minfo[39m: [32mWebhook reçu: invoice.payment_succeeded[39m
+2025-11-16 00:13:43 [32minfo[39m: [32mWebhook reçu: invoice_payment.paid[39m
+2025-11-16 00:16:15 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 00:16:15 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 00:16:15 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 00:16:15 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 00:16:15 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 00:16:24 [32minfo[39m: [32mSession Checkout créée: cs_test_b1hys5PedFOP07Kiwro7q1gR5NoSfCfUrKe5Ur57zSEzSi6OB03FNfLdEi pour user azza@gmail.com[39m
+2025-11-16 00:17:42 [32minfo[39m: [32mWebhook reçu: charge.succeeded[39m
+2025-11-16 00:17:42 [32minfo[39m: [32mWebhook reçu: payment_method.attached[39m
+2025-11-16 00:17:42 [32minfo[39m: [32mWebhook reçu: customer.created[39m
+2025-11-16 00:17:42 [32minfo[39m: [32mWebhook reçu: customer.updated[39m
+2025-11-16 00:17:42 [32minfo[39m: [32mWebhook reçu: customer.subscription.created[39m
+2025-11-16 00:17:43 [32minfo[39m: [32mWebhook reçu: payment_intent.succeeded[39m
+2025-11-16 00:17:43 [32minfo[39m: [32mWebhook reçu: payment_intent.created[39m
+2025-11-16 00:17:43 [32minfo[39m: [32mWebhook reçu: invoice.created[39m
+2025-11-16 00:17:43 [32minfo[39m: [32mWebhook reçu: invoice.finalized[39m
+2025-11-16 00:17:43 [32minfo[39m: [32mWebhook reçu: invoice.paid[39m
+2025-11-16 00:17:43 [32minfo[39m: [32m[Stripe] INVOICE RAW DATA:[39m
+2025-11-16 00:17:43 [32minfo[39m: [32m[Stripe] invoice.subscriptionId:[39m
+2025-11-16 00:17:43 [32minfo[39m: [32m[Stripe] INVOICE RECEIVED:[39m
+2025-11-16 00:17:43 [32minfo[39m: [32mWebhook reçu: checkout.session.completed[39m
+2025-11-16 00:17:43 [32minfo[39m: [32mWebhook reçu: invoice.payment_succeeded[39m
+2025-11-16 00:18:10 [32minfo[39m: [32mWebhook reçu: invoice_payment.paid[39m
+2025-11-16 09:56:02 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 09:56:02 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 09:56:02 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 09:56:02 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 09:56:02 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 09:56:26 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-16 09:59:09 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:48 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:49 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:49 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:49 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 09:59:49 [31merror[39m: [31mRoute non trouvee: /api/v1billing/webhook[39m
+2025-11-16 10:01:49 [31merror[39m: [31mStripe: Argument "subscription_exposed_id" must be a string, but got: null (on API request to `GET /v1/subscriptions/{subscription_exposed_id}`)[39m
+2025-11-16 10:09:54 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 10:09:54 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 10:09:54 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 10:09:54 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 10:09:54 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 10:14:20 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 10:14:20 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 10:14:20 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 10:14:20 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 10:14:20 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 10:14:24 [31merror[39m: [31mToken expiré[39m
+2025-11-16 10:14:34 [31merror[39m: [31mL'email est requis, Email invalide, Le mot de passe est requis[39m
+2025-11-16 10:14:48 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-16 10:15:12 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-16 10:15:20 [31merror[39m: [31mAccès refusé. Token manquant[39m
+2025-11-16 10:19:10 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 10:19:10 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 10:19:10 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 10:19:10 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 10:19:10 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 10:19:40 [31merror[39m: [31mUser validation failed: premiumExpiresAt: Cast to date failed for value "Invalid Date" (type Date) at path "premiumExpiresAt"[39m
+2025-11-16 10:23:21 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 10:23:21 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 10:23:21 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 10:23:21 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 10:23:21 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 10:30:32 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 10:30:32 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 10:30:32 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 10:30:32 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 10:30:32 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 10:30:37 [31merror[39m: [31mToken expiré[39m
+2025-11-16 10:30:47 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-16 10:46:04 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 10:46:04 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 10:46:04 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 10:46:04 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 10:46:04 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 10:46:07 [31merror[39m: [31mToken expiré[39m
+2025-11-16 10:46:14 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-16 10:53:02 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 10:53:02 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 10:53:02 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 10:53:02 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 10:53:02 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 10:54:53 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 10:54:53 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 10:54:53 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 10:54:53 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 10:54:53 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 10:56:01 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 10:56:01 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 10:56:01 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 10:56:01 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 10:56:01 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 10:56:04 [31merror[39m: [31mser is not defined[39m
+2025-11-16 10:56:37 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 10:56:37 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 10:56:37 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 10:56:37 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 10:56:37 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 10:56:38 [31merror[39m: [31mapiResponse.error is not a function[39m
+2025-11-16 10:57:53 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 10:57:53 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 10:57:53 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 10:57:53 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 10:57:53 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 10:57:55 [31merror[39m: [31mapiResponse.error is not a function[39m
+2025-11-16 10:59:13 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 10:59:13 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 10:59:13 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 10:59:13 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 10:59:13 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 11:06:04 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-16 11:08:04 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 11:08:04 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 11:08:04 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 11:08:04 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 11:08:04 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 11:24:49 [31merror[39m: [31mToken expiré[39m
+2025-11-16 11:25:47 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-16 11:44:21 [31merror[39m: [31mToken expiré[39m
+2025-11-16 11:44:50 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-16 11:48:07 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 11:48:07 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 11:48:07 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 11:48:07 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 11:48:07 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 12:06:46 [31merror[39m: [31mToken expiré[39m
+2025-11-16 12:06:48 [31merror[39m: [31mToken expiré[39m
+2025-11-16 12:06:59 [31merror[39m: [31mToken expiré[39m
+2025-11-16 12:07:24 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-16 12:21:25 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-16 12:32:01 [31merror[39m: [31mToken expiré[39m
+2025-11-16 12:35:12 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 12:35:12 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 12:35:12 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 12:35:12 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 12:35:12 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 12:39:19 [31merror[39m: [31mToken expiré[39m
+2025-11-16 12:39:42 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-16 12:46:33 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 12:46:34 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 12:46:34 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 12:46:34 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 12:46:34 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-16 12:46:54 [32minfo[39m: [32mConnexion réussie: azza@gmail.com[39m
+2025-11-16 12:47:11 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/checkout[39m
+2025-11-16 12:47:11 [31merror[39m: [31mRoute non trouvee: /favicon.ico[39m
+2025-11-16 12:59:07 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-16 12:59:07 [32minfo[39m: [32m Environnement: development[39m
+2025-11-16 12:59:07 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-16 12:59:07 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-16 12:59:07 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+>>>>>>> d61e4505571fc26bf7c474168778c27ecae7931b

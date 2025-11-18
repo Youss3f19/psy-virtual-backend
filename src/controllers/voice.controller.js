@@ -1,206 +1,304 @@
+// src/controllers/voice.controller.js
 const fs = require('fs');
-const { validationResult } = require('express-validator');
-const { processVoice, endSession } = require('../services/ml.service');
+const path = require('path');
 const Session = require('../models/Session.model');
 const User = require('../models/User.model');
 const ApiError = require('../utils/apiError');
 const apiResponse = require('../utils/apiResponse');
+const { processVoice, endSession } = require('../services/ml.service');
 
-function mapEmotionForHistory(mlEmotion) {
-  const m = { anxiete: 'anxiété', colere: 'colère', tristesse: 'tristesse', peur: 'peur', neutre: 'neutre' };
-  return m[mlEmotion] || 'neutre';
-}
+const today = () => new Date().toISOString().slice(0,10);
+const mapEmotion = e => ({ anxiete:'anxiete', colere:'colere', tristesse:'tristesse', peur:'peur', neutre:'neutre' }[e] || 'neutre');
 
-async function enforceDailyQuotaOrThrow(userId, isPremium) {
-  const start = new Date(); start.setHours(0,0,0,0);
-  const end = new Date();   end.setHours(23,59,59,999);
-
-  const count = await Session.countDocuments({ user: userId, createdAt: { $gte: start, $lte: end } });
-  const limit = isPremium ? 10 : 2;
-  
-  if (count >= limit) {
-    throw ApiError.forbidden(
-      `Limite journalière atteinte (${count}/${limit}). ${!isPremium ? 'Passez à Premium pour 10 sessions/jour !' : ''}`
-    );
-  }
-  
-  return { remaining: limit - count, total: limit };
-}
-
-async function processVoiceCtrl(req, res, next) {
-  const errors = validationResult(req);
-  if (!errors.isEmpty()) return next(ApiError.badRequest('Erreur de validation', errors.array()));
-  if (!req.file) return next(ApiError.badRequest('Fichier audio requis'));
-
+/**
+ * Démarrer une séance (status=planned)
+ * POST /api/v1/sessions/start
+ */
+exports.startSession = async (req, res, next) => {
   try {
-    const userId = req.user.id;
-    const sessionId = req.body.session_id;
+    const s = await Session.create({
+      user: req.user.id,
+      status: 'planned',
+      sessionDate: today()
+    });
+    return res.json(apiResponse.success({ session_db_id: s._id, status: s.status }));
+  } catch (e) { return next(ApiError.internal(e.message)); }
+};
 
-    const user = await User.findById(userId);
-    const isPremium = user.isActivePremium();
-    const quotaInfo = await enforceDailyQuotaOrThrow(userId, isPremium);
+/**
+ * Ajouter un vocal (un tour) dans une séance en cours
+ * POST /api/v1/sessions/voice  (multipart: audio)
+ * Champs optionnels: session_ml_id (si continuation ML)
+ */
+exports.processVoiceCtrl = async (req, res, next) => {
+  try {
+    if (!req.file) return next(ApiError.badRequest('Fichier audio requis'));
+    let session = req.validatedSession || null;
 
-    const result = await processVoice({ 
-      filePath: req.file.path, 
-      userId, 
-      sessionId,
-      isPremium 
+    // Appel vers le service Python (transcription, émotion, questions)
+    const result = await processVoice({
+      filePath: req.file.path,
+      userId: req.user.id,
+      sessionId: session?.mlSessionId || null
     });
 
-    const s = await Session.create({
-      user: userId,
-      mlSessionId: result.session_id,
-      emotion: result.emotion,
-      confidence: result.confidence,
-      transcription: result.transcription,
-      danger: {
+    // Déplacer l’audio dans un dossier par séance ML
+    const dir = path.join(process.cwd(), 'uploads', String(result.session_id || session?.mlSessionId || 'local'));
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+    const destPath = path.join(dir, path.basename(req.file.path));
+    fs.renameSync(req.file.path, destPath);
+
+    // Créer ou mettre à jour la séance
+    if (!session) {
+      session = await Session.create({
+        user: req.user.id,
+        mlSessionId: result.session_id,
+        status: 'in-progress',
+        sessionDate: today(),
+        emotion: result.emotion,
+        confidence: result.confidence,
+        languageCode: result.language || result.languageCode,
+        // timeline: message user (audio)
+        messages: [{
+          role: 'user',
+          type: 'audio',
+          label: 'user_input',
+          filePath: destPath,
+          durationSec: result.duration_sec,
+          stt: { text: result.transcription, segments: result.segments || [], languageCode: result.language || 'fr' },
+          emotionAtTurn: result.emotion
+        }],
+        danger: {
+          score: result.danger_analysis?.danger_score,
+          riskLevel: result.danger_analysis?.risk_level,
+          action: result.danger_analysis?.action,
+          triggers: result.danger_analysis?.triggers || []
+        }
+      });
+    } else {
+      if (session.status === 'completed') return next(ApiError.forbidden('Séance terminée: lecture seule'));
+      session.status = 'in-progress';
+      session.emotion = result.emotion;
+      session.confidence = result.confidence;
+      session.languageCode = result.language || result.languageCode || session.languageCode;
+      session.messages.push({
+        role: 'user',
+        type: 'audio',
+        label: 'user_input',
+        filePath: destPath,
+        durationSec: result.duration_sec,
+        stt: { text: result.transcription, segments: result.segments || [], languageCode: result.language || 'fr' },
+        emotionAtTurn: result.emotion
+      });
+      session.danger = {
         score: result.danger_analysis?.danger_score,
         riskLevel: result.danger_analysis?.risk_level,
         action: result.danger_analysis?.action,
-        triggers: result.danger_analysis?.triggers || [],
-      },
-      therapistResponse: result.therapist_response,
-      questions: result.questions || [],
-      isPremiumSession: isPremium,
-    });
+        triggers: result.danger_analysis?.triggers || []
+      };
+      await session.save();
+    }
 
-    await User.findByIdAndUpdate(userId, {
-      $push: {
-        emotionHistory: {
-          emotion: mapEmotionForHistory(result.emotion),
-          intensity: Math.max(0, Math.min(1, Number(result.confidence || 0))),
-          timestamp: new Date(),
-        },
-      },
-    });
+    // Ajouter la réponse du psy comme message assistant (texte)
+    if (result.therapist_response) {
+      session.messages.push({
+        role: 'assistant',
+        type: 'text',
+        label: 'assistant_response',
+        stt: { text: result.therapist_response },
+        emotionAtTurn: result.emotion
+      });
+    }
 
-    return res.json(apiResponse.success({
-      ...result,
-      session_db_id: s._id,
-      user_status: {
-        isPremium,
-        quota: quotaInfo,
+    // Ajouter les questions (une bulle par question)
+    if (Array.isArray(result.questions)) {
+      for (const q of result.questions) {
+        session.messages.push({
+          role: 'assistant',
+          type: 'text',
+          label: 'assistant_question',
+          stt: { text: q }
+        });
       }
-    }));
-  } catch (err) {
-    return next(err.statusCode ? err : ApiError.badGateway(err.message || 'Erreur service ML'));
-  } finally {
-    if (req.file) fs.unlink(req.file.path, () => {});
-  }
-}
+    }
 
-async function endSessionCtrl(req, res, next) {
-  const errors = validationResult(req);
-  if (!errors.isEmpty()) return next(ApiError.badRequest('Erreur de validation', errors.array()));
+    await session.save();
 
-  try {
-    const { session_id } = req.body;
-    const user = await User.findById(req.user.id);
-    const isPremium = user.isActivePremium();
-    
-    const result = await endSession({ 
-      sessionId: session_id,
-      isPremium
+    // Historique émotionnel utilisateur
+    await User.findByIdAndUpdate(req.user.id, {
+      $push: { emotionHistory: { emotion: mapEmotion(result.emotion), intensity: Math.max(0, Math.min(1, Number(result.confidence || 0))), timestamp: new Date() } },
+      $set:  { lastEmotion: mapEmotion(result.emotion) }
     });
 
-    const s = await Session.findOneAndUpdate(
-      { user: req.user.id, mlSessionId: session_id },
-      { 
-        treatmentPlan: result.treatment_plan, 
-        closedAt: new Date(),
-        premiumAdvice: isPremium ? result.premium_advice : null
-      },
-      { new: true }
-    );
+    return res.json(apiResponse.success({
+      session_db_id: session._id,
+      session_ml_id: result.session_id || session.mlSessionId,
+      status: session.status,
+      emotion: result.emotion,
+      confidence: result.confidence,
+      danger: result.danger_analysis,
+      next_questions: result.questions || [],
+      assistant_reply: result.therapist_response || null
+    }));
+  } catch (e) {
+    return next(ApiError.internal(e.message || 'Erreur service ML'));
+  } finally {
+    if (req.file && fs.existsSync(req.file.path)) fs.unlink(req.file.path, () => {});
+  }
+};
+
+/**
+ * Clôturer une séance: calculer diagnostic + plan de traitement
+ * POST /api/v1/sessions/:mlId/complete
+ */
+exports.endSessionCtrl = async (req, res, next) => {
+  try {
+    const session = req.validatedSession;
+    if (!session) return next(ApiError.badRequest('session_ml_id requis'));
+
+    const user = await User.findById(req.user.id);
+    const isPremium = user.isActivePremium && user.isActivePremium();
+
+    const result = await endSession({ sessionId: session.mlSessionId, isPremium });
+
+    session.treatmentPlan = result.treatment_plan;
+    session.closedAt = new Date();
+    session.status = 'completed';
+    session.diagnosis = result?.session_summary?.diagnosis || session.diagnosis || null;
+    await session.save();
+
+    // mémoire trans-séance minimale
+    await User.findByIdAndUpdate(req.user.id, {
+      $set: {
+        lastSummary: session.diagnosis || '',
+        lastDangerLevel: session.danger?.score || 0,
+        activeExercises: (result.treatment_plan?.exercises || [])
+      }
+    });
 
     return res.json(apiResponse.success({
-      session: s,
-      treatment_plan: result.treatment_plan,
-      premium_advice: isPremium ? result.premium_advice : null,
+      session_id: session._id,
+      status: session.status,
+      diagnosis: session.diagnosis,
+      treatment_plan: result.treatment_plan
     }));
-  } catch (err) {
-    return next(err.statusCode ? err : ApiError.badGateway(err.message || 'Erreur service ML'));
-  }
-}
+  } catch (e) { return next(ApiError.internal(e.message || 'Erreur service ML')); }
+};
 
-// ✅ MODIFIÉ - Historique avec limitation Free/Premium
-async function listSessionsCtrl(req, res, next) {
+/**
+ * Historique des séances de l'utilisateur (liste)
+ * GET /api/v1/sessions
+ */
+exports.listSessionsCtrl = async (req, res, next) => {
   try {
     const user = await User.findById(req.user.id);
-    const isPremium = user.isActivePremium();
-    
-    // Premium voit 100, Gratuit voit 10
+    const isPremium = user.isActivePremium && user.isActivePremium();
     const limit = isPremium ? 100 : 10;
-    
+
     const sessions = await Session.find({ user: req.user.id })
       .sort({ createdAt: -1 })
       .limit(limit)
-      .select('-__v -mlSessionId'); // Enlever les champs inutiles
-    
-    const totalCount = await Session.countDocuments({ user: req.user.id });
-    
+      .select('-__v');
+
+    const total = await Session.countDocuments({ user: req.user.id });
+
     return res.json(apiResponse.success({
-      sessions,
-      isPremium,
-      displayed: sessions.length,
-      total: totalCount,
-      limit,
-      message: !isPremium && totalCount > 10 
-        ? `Vous voyez 10 sessions sur ${totalCount}. Passez à Premium pour voir tout l'historique !` 
-        : null
+      sessions, isPremium, displayed: sessions.length, total, limit,
+      message: (!isPremium && total > limit) ? `Vous voyez ${limit} séances sur ${total}. Passez en Premium pour tout l’historique.` : null
     }));
-  } catch (err) {
-    return next(ApiError.internal(err.message));
-  }
-}
+  } catch (e) { return next(ApiError.internal(e.message)); }
+};
 
-// ✅ NOUVEAU - Récupérer une session spécifique
-async function getSessionCtrl(req, res, next) {
+/**
+ * Timeline complète d'une séance
+ * GET /api/v1/sessions/:dbId/timeline
+ */
+exports.getTimelineCtrl = async (req, res, next) => {
   try {
-    const { sessionId } = req.params;
-    
-    const session = await Session.findOne({
-      _id: sessionId,
-      user: req.user.id
-    }).select('-__v');
-    
-    if (!session) {
-      throw ApiError.notFound('Session non trouvée');
+    const s = await Session.findOne({ _id: req.params.dbId, user: req.user.id })
+      .select('-__v')
+      .lean();
+    if (!s) return next(ApiError.notFound('Session introuvable'));
+
+    // messages[] est déjà horodaté via subdocs timestamps
+    return res.json(apiResponse.success({
+      session: {
+        id: s._id,
+        status: s.status,
+        createdAt: s.createdAt,
+        closedAt: s.closedAt,
+        emotion: s.emotion,
+        danger: s.danger,
+        messages: s.messages,
+        diagnosis: s.diagnosis || null,
+        treatmentPlan: s.treatmentPlan || null
+      }
+    }));
+  } catch (e) { return next(ApiError.internal(e.message)); }
+};
+
+/**
+ * Streaming audio d’un message (HTTP Range)
+ * GET /api/v1/sessions/:dbId/audio/:messageId
+ */
+exports.streamAudioCtrl = async (req, res, next) => {
+  try {
+    const s = await Session.findOne({ _id: req.params.dbId, user: req.user.id });
+    if (!s) return next(ApiError.notFound('Session introuvable'));
+    const m = s.messages.id(req.params.messageId);
+    if (!m || !m.filePath) return next(ApiError.notFound('Message audio introuvable'));
+
+    const file = m.filePath;
+    const stat = fs.statSync(file);
+    const fileSize = stat.size;
+    const range = req.headers.range;
+
+    if (range) {
+      // Réponse partielle 206 pour permettre le seek
+      const parts = range.replace(/bytes=/, '').split('-');
+      const start = parseInt(parts[0], 10);
+      const end = parts[1] ? parseInt(parts[1], 10) : fileSize - 1;
+      const chunk = (end - start) + 1;
+      const stream = fs.createReadStream(file, { start, end });
+      res.writeHead(206, {
+        'Content-Range': `bytes ${start}-${end}/${fileSize}`,
+        'Accept-Ranges': 'bytes',
+        'Content-Length': chunk,
+        'Content-Type': 'audio/wav'
+      });
+      stream.pipe(res);
+    } else {
+      res.writeHead(200, { 'Content-Length': fileSize, 'Content-Type': 'audio/wav' });
+      fs.createReadStream(file).pipe(res);
     }
-    
-    return res.json(apiResponse.success(session));
-  } catch (err) {
-    return next(ApiError.internal(err.message));
-  }
-}
+  } catch (e) { return next(ApiError.internal(e.message)); }
+};
 
-// ✅ NOUVEAU - Supprimer une session
-async function deleteSessionCtrl(req, res, next) {
+/**
+ * Redémarrer une nouvelle séance à partir d'une close
+ * POST /api/v1/sessions/restart  body: { previous_session_db_id }
+ */
+exports.restartFromPreviousCtrl = async (req, res, next) => {
   try {
-    const { sessionId } = req.params;
-    
-    const session = await Session.findOneAndDelete({
-      _id: sessionId,
-      user: req.user.id
+    const prev = await Session.findOne({ _id: req.body.previous_session_db_id, user: req.user.id })
+      .select('treatmentPlan emotion danger diagnosis');
+    if (!prev) return next(ApiError.notFound('Séance précédente introuvable'));
+
+    const s = await Session.create({
+      user: req.user.id,
+      status: 'planned',
+      sessionDate: today()
     });
-    
-    if (!session) {
-      throw ApiError.notFound('Session non trouvée');
-    }
-    
-    return res.json(apiResponse.success({
-      message: 'Session supprimée avec succès',
-      sessionId
-    }));
-  } catch (err) {
-    return next(ApiError.internal(err.message));
-  }
-}
 
-module.exports = { 
-  processVoiceCtrl, 
-  endSessionCtrl, 
-  listSessionsCtrl,
-  getSessionCtrl,      // ✅ Nouveau
-  deleteSessionCtrl    // ✅ Nouveau
+    await User.findByIdAndUpdate(req.user.id, {
+      $set: {
+        lastSummary: prev.diagnosis || (prev.treatmentPlan ? prev.treatmentPlan.plan_type : ''),
+        lastEmotion: prev.emotion || null,
+        lastDangerLevel: prev.danger?.score || 0,
+        activeExercises: prev.treatmentPlan?.exercises || []
+      }
+    });
+
+    return res.json(apiResponse.success({ session_db_id: s._id, status: s.status }));
+  } catch (e) { return next(ApiError.internal(e.message)); }
 };

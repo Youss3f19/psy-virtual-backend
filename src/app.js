@@ -9,27 +9,28 @@ const routes = require('./routes');
 const { errorConverter, errorHandler } = require('./middleware/error.middleware');
 const ApiError = require('./utils/apiError');
 const logger = require('./utils/logger');
-
-// Initialiser Express
 const app = express();
+const BillingController = require('./controllers/billing.controller'); // If not imported yet
 
-// Configuration Passport
+
+// Passport config
 require('./config/passport')(passport);
 
 // Security headers
 app.use(helmet());
 
-// CORS configuration
+// CORS
 app.use(
   cors({
     origin: function (origin, callback) {
-      // Autoriser toutes les origines en développement
       if (config.env === 'development') {
+        // Allow Flutter Web / localhost / null origins
         return callback(null, true);
       }
-      // En production, vérifier les origines autorisées
+
       const allowedOrigins = [config.frontendUrl];
-      if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+
+      if (!origin || origin === "null" || allowedOrigins.includes(origin)) {
         callback(null, true);
       } else {
         callback(new Error('Not allowed by CORS'));
@@ -41,34 +42,35 @@ app.use(
   })
 );
 
-// Rate limiting
-const limiter = rateLimit({
-  windowMs: config.rateLimit.windowMs,
-  max: config.rateLimit.max,
-  message: 'Trop de requêtes depuis cette IP, veuillez réessayer plus tard',
-  standardHeaders: true,
-  legacyHeaders: false,
-});
-app.use('/api', limiter);
 
-app.use(
+// IMPORTANT: Stripe webhook route FIRST and RAW!
+app.post(
   '/api/v1/billing/webhook',
-  express.raw({ type: 'application/json' })
+  express.raw({ type: 'application/json' }),
+  BillingController.handleWebhook
 );
-
-// Body parser
+// Now, body parser for other routes
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
-// HTTP request logger
+// Rate limiting (skip webhook)
+const limiter = rateLimit({
+  windowMs: config.rateLimit.windowMs,
+  max: config.rateLimit.max,
+  message: 'Trop de requetes depuis cette IP, veuillez reessayer plus tard',
+  standardHeaders: true,
+  legacyHeaders: false,
+  skip: (req) => req.path === '/api/v1/billing/webhook'
+});
+app.use('/api', limiter);
+
+// HTTP log
 if (config.env === 'development') {
   app.use(morgan('dev'));
 } else {
-  app.use(
-    morgan('combined', {
-      stream: { write: (message) => logger.http(message.trim()) },
-    })
-  );
+  app.use(morgan('combined', {
+    stream: { write: (message) => logger.http(message.trim()) },
+  }));
 }
 
 // Passport initialization
@@ -89,10 +91,10 @@ app.get('/', (req, res) => {
 
 // 404 handler
 app.use((req, res, next) => {
-  next(ApiError.notFound(`Route non trouvée: ${req.originalUrl}`));
+  next(ApiError.notFound(`Route non trouvee: ${req.originalUrl}`));
 });
 
-// Error handling middlewares
+// Error handling
 app.use(errorConverter);
 app.use(errorHandler);
 
