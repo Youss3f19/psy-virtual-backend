@@ -430,3 +430,16 @@
 2025-11-16 12:47:11 [31merror[39m: [31mRoute non trouvee: /api/v1/billing/checkout[39m
 2025-11-16 12:47:11 [31merror[39m: [31mRoute non trouvee: /favicon.ico[39m
 >>>>>>> d61e4505571fc26bf7c474168778c27ecae7931b
+2025-11-18 22:41:57 [31merror[39m: [31mCet email est déjà utilisé[39m
+2025-11-18 23:00:01 [31merror[39m: [31mRoute non trouvee: /api/v1/voice/sessions/voice[39m
+2025-11-18 23:04:16 [31merror[39m: [31mRoute non trouvee: /api/v1/voice/sessions/voice[39m
+2025-11-18 23:07:36 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-18 23:08:09 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-18 23:11:19 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-18 23:16:44 [31merror[39m: [31mToken expiré[39m
+2025-11-18 23:17:43 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-18 23:33:19 [31merror[39m: [31mToken expiré[39m
+2025-11-18 23:33:53 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-18 23:38:30 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-18 23:53:32 [31merror[39m: [31mToken expiré[39m
+2025-11-18 23:54:09 [31merror[39m: [31mRequest failed with status code 500[39m

@@ -21,7 +21,7 @@ router.get('/health', (req, res) => {
 
 // Routes d'authentification
 router.use('/auth', authRoutes);
-router.use('/chat', voiceRoutes); 
+router.use('/voice', voiceRoutes); 
 router.use('/billing', billingRoutes);
 
 module.exports = router;

@@ -1,5 +1,7 @@
 const dotenv = require("dotenv");
-dotenv.config({ path: ".env.development" });
+// Charger uniquement .env
+dotenv.config();
+
 const express = require('express');
 const app = require('./app');
 const connectDB = require('./config/database');
