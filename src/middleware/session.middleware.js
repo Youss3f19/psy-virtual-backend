@@ -13,7 +13,7 @@ exports.loadSessionIfAny = async (req, _res, next) => {
 
 exports.enforceDailyQuota = async (req, _res, next) => {
   const user = req.user;
-  if (user.isActivePremium && user.isActivePremium()) return next();
+  if (user && await user.isActivePremium()) return next();
   const y = new Date().toISOString().slice(0,10);
   const count = await Session.countDocuments({ user: user.id, status: 'completed', sessionDate: y });
   if (count >= 1) return next(ApiError.forbidden('Limite: 1 séance gratuite par jour'));

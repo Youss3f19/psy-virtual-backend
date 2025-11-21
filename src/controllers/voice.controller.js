@@ -99,27 +99,21 @@ exports.processVoiceCtrl = async (req, res, next) => {
       await session.save();
     }
 
-    // Ajouter la réponse du psy comme message assistant (texte)
-    if (result.therapist_response) {
+    // Ajouter la réponse du psy + questions dans un seul message assistant
+    if (result.therapist_response || (Array.isArray(result.questions) && result.questions.length)) {
+      let combinedText = '';
+      if (result.therapist_response) combinedText += String(result.therapist_response);
+      if (Array.isArray(result.questions) && result.questions.length) {
+        combinedText += (combinedText ? '\n\n' : '') + 'Questions:' + '\n' + result.questions.map((q, i) => `${i+1}. ${q}`).join('\n');
+      }
+
       session.messages.push({
         role: 'assistant',
         type: 'text',
         label: 'assistant_response',
-        stt: { text: result.therapist_response },
+        stt: { text: combinedText },
         emotionAtTurn: result.emotion
       });
-    }
-
-    // Ajouter les questions (une bulle par question)
-    if (Array.isArray(result.questions)) {
-      for (const q of result.questions) {
-        session.messages.push({
-          role: 'assistant',
-          type: 'text',
-          label: 'assistant_question',
-          stt: { text: q }
-        });
-      }
     }
 
     await session.save();
@@ -156,8 +150,8 @@ exports.endSessionCtrl = async (req, res, next) => {
     const session = req.validatedSession;
     if (!session) return next(ApiError.badRequest('session_ml_id requis'));
 
-    const user = await User.findById(req.user.id);
-    const isPremium = user.isActivePremium && user.isActivePremium();
+    const user = await User.findById(req.user.id).populate('subscription');
+    const isPremium = await user.isActivePremium();
 
     const result = await endSession({ sessionId: session.mlSessionId, isPremium });
 
@@ -191,8 +185,8 @@ exports.endSessionCtrl = async (req, res, next) => {
  */
 exports.listSessionsCtrl = async (req, res, next) => {
   try {
-    const user = await User.findById(req.user.id);
-    const isPremium = user.isActivePremium && user.isActivePremium();
+    const user = await User.findById(req.user.id).populate('subscription');
+    const isPremium = await user.isActivePremium();
     const limit = isPremium ? 100 : 10;
 
     const sessions = await Session.find({ user: req.user.id })

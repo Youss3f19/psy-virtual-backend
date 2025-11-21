@@ -6,6 +6,17 @@ const morgan = require('morgan');
 const passport = require('passport');
 const config = require('./config');
 const routes = require('./routes');
+const path = require('path');
+// Swagger UI
+let swaggerUi;
+let swaggerDocument;
+try {
+  swaggerUi = require('swagger-ui-express');
+  swaggerDocument = require('./swagger.json');
+} catch (e) {
+  swaggerUi = null;
+  swaggerDocument = null;
+}
 const { errorConverter, errorHandler } = require('./middleware/error.middleware');
 const ApiError = require('./utils/apiError');
 const logger = require('./utils/logger');
@@ -77,6 +88,12 @@ app.use(passport.initialize());
 
 // API Routes
 app.use('/api/v1', routes);
+
+// Swagger UI (optional)
+if (swaggerUi && swaggerDocument) {
+  app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument, { explorer: true }));
+  app.get('/swagger.json', (req, res) => res.json(swaggerDocument));
+}
 
 // Root endpoint
 app.get('/', (req, res) => {

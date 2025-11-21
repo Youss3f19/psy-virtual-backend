@@ -2,6 +2,7 @@ const express = require('express');
 const { protect } = require('../middleware/auth.middleware');
 const { uploadAudio } = require('../middleware/upload.middleware');
 const { loadSessionIfAny, enforceDailyQuota } = require('../middleware/session.middleware');
+const enforcePremiumLimits = require('../middleware/premium.middleware');
 const Voice = require('../controllers/voice.controller');
 
 const router = express.Router();
@@ -13,7 +14,7 @@ router.get('/sessions/:dbId/audio/:messageId', protect, Voice.streamAudioCtrl);
 
 // Démarrage / flux / clôture d'une séance
 router.post('/sessions/start', protect, enforceDailyQuota, Voice.startSession);
-router.post('/sessions/voice', protect, uploadAudio, loadSessionIfAny, Voice.processVoiceCtrl);
+router.post('/sessions/voice', protect, uploadAudio, loadSessionIfAny, enforcePremiumLimits, Voice.processVoiceCtrl);
 router.post(
   '/sessions/:mlId/complete',
   protect,
@@ -26,3 +27,4 @@ router.post(
 router.post('/sessions/restart', protect, Voice.restartFromPreviousCtrl);
 
 module.exports = router;
+  

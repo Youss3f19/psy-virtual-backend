@@ -27,3 +27,6 @@ build/
 
 #SECRET
 secret.json
+
+# Uploads
+uploads/

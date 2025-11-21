@@ -236,3 +236,21 @@
 2025-11-13 18:03:13 [31merror[39m: [31mError[39m
 2025-11-13 18:16:19 [31merror[39m: [31mError[39m
 2025-11-13 18:37:05 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-14 11:45:24 [31merror[39m: [31mSession introuvable[39m
+2025-11-14 11:50:13 [31merror[39m: [31mSession introuvable[39m
+2025-11-14 11:55:02 [31merror[39m: [31mSéance terminée: lecture seule[39m
+2025-11-18 23:38:48 [31merror[39m: [31mFichier audio requis[39m
+2025-11-18 23:39:00 [31merror[39m: [31mCet email est déjà utilisé[39m
+2025-11-18 23:40:12 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/voice/?audio[39m
+2025-11-18 23:40:19 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/voice[39m
+2025-11-18 23:46:24 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-18 23:53:32 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-18 23:58:03 [31merror[39m: [31mError[39m
+2025-11-18 23:59:38 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-19 14:47:48 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-19 14:48:52 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-20 10:42:41 [31merror[39m: [31mRequest failed with status code 500[39m
+2025-11-20 10:43:09 [31merror[39m: [31mRequest failed with status code 500[39m
+2025-11-20 11:01:00 [31merror[39m: [31mRequest failed with status code 500[39m
+2025-11-20 11:02:11 [31merror[39m: [31mRequest failed with status code 500[39m
+2025-11-20 11:06:06 [31merror[39m: [31mRequest failed with status code 500[39m

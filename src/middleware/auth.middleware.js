@@ -49,8 +49,8 @@ const restrictTo = (...roles) => {
   };
 };
 
-const checkPremium = (req, _res, next) => {
-  if (!req.user.isActivePremium()) {
+const checkPremium = async (req, _res, next) => {
+  if (!req.user || !(await req.user.isActivePremium())) {
     throw ApiError.forbidden('Accès réservé aux utilisateurs premium');
   }
   next();

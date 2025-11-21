@@ -1496,3 +1496,149 @@
 2025-11-13 19:04:14 [32minfo[39m: [32m URL: http://localhost:5000[39m
 2025-11-13 19:04:14 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
 2025-11-13 19:04:14 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-14 11:41:15 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-14 11:41:15 [32minfo[39m: [32m Environnement: development[39m
+2025-11-14 11:41:15 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-14 11:41:15 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-14 11:41:15 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-14 11:43:44 [32minfo[39m: [32mNouvel utilisateur créé: lina@gmail.com[39m
+2025-11-14 11:45:24 [31merror[39m: [31mSession introuvable[39m
+2025-11-14 11:50:13 [31merror[39m: [31mSession introuvable[39m
+2025-11-14 11:52:47 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-14 11:52:47 [32minfo[39m: [32m Environnement: development[39m
+2025-11-14 11:52:47 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-14 11:52:47 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-14 11:52:47 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-14 11:55:02 [31merror[39m: [31mSéance terminée: lecture seule[39m
+2025-11-18 23:38:40 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-18 23:38:40 [32minfo[39m: [32m Environnement: development[39m
+2025-11-18 23:38:40 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-18 23:38:40 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-18 23:38:40 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-18 23:38:48 [31merror[39m: [31mFichier audio requis[39m
+2025-11-18 23:39:00 [31merror[39m: [31mCet email est déjà utilisé[39m
+2025-11-18 23:39:09 [32minfo[39m: [32mConnexion réussie: bile@gmail.com[39m
+2025-11-18 23:40:12 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/voice/?audio[39m
+2025-11-18 23:40:19 [31merror[39m: [31mRoute non trouvee: /api/v1/chat/voice[39m
+2025-11-18 23:46:24 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-18 23:53:32 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-18 23:58:03 [31merror[39m: [31mError[39m
+2025-11-18 23:59:38 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-19 00:12:03 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-19 00:12:03 [32minfo[39m: [32m Environnement: development[39m
+2025-11-19 00:12:03 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-19 00:12:03 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-19 00:12:03 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-19 14:47:37 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-19 14:47:37 [32minfo[39m: [32m Environnement: development[39m
+2025-11-19 14:47:37 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-19 14:47:37 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-19 14:47:37 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-19 14:47:48 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-19 14:48:52 [31merror[39m: [31mRequest failed with status code 400[39m
+2025-11-20 10:42:10 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-20 10:42:10 [32minfo[39m: [32m Environnement: development[39m
+2025-11-20 10:42:10 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-20 10:42:10 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-20 10:42:10 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-20 10:42:41 [31merror[39m: [31mRequest failed with status code 500[39m
+2025-11-20 10:43:09 [31merror[39m: [31mRequest failed with status code 500[39m
+2025-11-20 11:01:00 [31merror[39m: [31mRequest failed with status code 500[39m
+2025-11-20 11:02:11 [31merror[39m: [31mRequest failed with status code 500[39m
+2025-11-20 11:06:06 [31merror[39m: [31mRequest failed with status code 500[39m
+2025-11-20 21:03:10 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-20 21:03:10 [32minfo[39m: [32m Environnement: development[39m
+2025-11-20 21:03:10 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-20 21:03:10 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-20 21:03:10 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-20 21:08:05 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-20 21:08:05 [32minfo[39m: [32m Environnement: development[39m
+2025-11-20 21:08:05 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-20 21:08:05 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-20 21:08:05 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-20 21:08:09 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-20 21:08:09 [32minfo[39m: [32m Environnement: development[39m
+2025-11-20 21:08:09 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-20 21:08:09 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-20 21:08:09 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-20 21:08:33 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-20 21:08:33 [32minfo[39m: [32m Environnement: development[39m
+2025-11-20 21:08:33 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-20 21:08:33 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-20 21:08:33 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-20 21:08:36 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-20 21:08:36 [32minfo[39m: [32m Environnement: development[39m
+2025-11-20 21:08:36 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-20 21:08:36 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-20 21:08:36 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-21 00:00:23 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-21 00:00:23 [32minfo[39m: [32m Environnement: development[39m
+2025-11-21 00:00:23 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-21 00:00:23 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-21 00:00:23 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-21 00:07:26 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-21 00:07:26 [32minfo[39m: [32m Environnement: development[39m
+2025-11-21 00:07:26 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-21 00:07:26 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-21 00:07:26 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-21 00:07:36 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-21 00:07:36 [32minfo[39m: [32m Environnement: development[39m
+2025-11-21 00:07:36 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-21 00:07:36 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-21 00:07:36 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-21 00:12:56 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-21 00:12:56 [32minfo[39m: [32m Environnement: development[39m
+2025-11-21 00:12:56 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-21 00:12:56 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-21 00:12:56 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-21 00:51:38 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-21 00:51:38 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 4328 minute(s) (day=1 hour=1:0)[39m
+2025-11-21 00:51:38 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-21 00:51:38 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-21 00:51:38 [32minfo[39m: [32m Environnement: development[39m
+2025-11-21 00:51:38 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-21 00:51:38 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-21 00:51:39 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-21 00:51:44 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-13T23:51:44.003Z[39m
+2025-11-21 00:51:44 [32minfo[39m: [32m[INACTIVITY JOB] Found 6 inactive users[39m
+2025-11-21 00:51:44 [32minfo[39m: [32m[NOTIF] Created inactivity for user 68f52ad159ce6d23b2d15fad[39m
+2025-11-21 00:51:44 [32minfo[39m: [32m[NOTIF] Created inactivity for user 68f52b4c59ce6d23b2d15fb0[39m
+2025-11-21 00:51:44 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f37c189e98469a4598f9f[39m
+2025-11-21 00:51:44 [32minfo[39m: [32m[NOTIF] Created inactivity for user 6911ba003575b08ce5594472[39m
+2025-11-21 00:51:44 [32minfo[39m: [32m[NOTIF] Created inactivity for user 6915bcffc7657c5e97bc455c[39m
+2025-11-21 00:51:44 [32minfo[39m: [32m[NOTIF] Created inactivity for user 691707e0fecfdbb56b5033ab[39m
+2025-11-21 00:51:44 [32minfo[39m: [32m[INACTIVITY JOB] Sent 6 inactivity notifications[39m
+2025-11-21 00:56:19 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-21 00:56:19 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 4324 minute(s) (day=1 hour=1:0)[39m
+2025-11-21 00:56:19 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-21 00:56:19 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-21 00:56:19 [32minfo[39m: [32m Environnement: development[39m
+2025-11-21 00:56:19 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-21 00:56:19 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-21 00:56:19 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-21 00:56:24 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-13T23:56:24.146Z[39m
+2025-11-21 00:56:24 [32minfo[39m: [32m[INACTIVITY JOB] Found 6 inactive users[39m
+2025-11-21 00:56:24 [32minfo[39m: [32m[NOTIF] Created inactivity for user 68f52ad159ce6d23b2d15fad[39m
+2025-11-21 00:56:24 [32minfo[39m: [32m[NOTIF] Created inactivity for user 68f52b4c59ce6d23b2d15fb0[39m
+2025-11-21 00:56:24 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f37c189e98469a4598f9f[39m
+2025-11-21 00:56:24 [32minfo[39m: [32m[NOTIF] Created inactivity for user 6911ba003575b08ce5594472[39m
+2025-11-21 00:56:24 [32minfo[39m: [32m[NOTIF] Created inactivity for user 6915bcffc7657c5e97bc455c[39m
+2025-11-21 00:56:24 [32minfo[39m: [32m[NOTIF] Created inactivity for user 691707e0fecfdbb56b5033ab[39m
+2025-11-21 00:56:24 [32minfo[39m: [32m[INACTIVITY JOB] Sent 6 inactivity notifications[39m
+2025-11-21 00:57:22 [32minfo[39m: [32mSocket.io initialized[39m
+2025-11-21 00:57:22 [32minfo[39m: [32m[WEEKLY JOB] Scheduling weekly summary job to start in 4323 minute(s) (day=1 hour=1:0)[39m
+2025-11-21 00:57:22 [32minfo[39m: [32mNotification delivery job started (interval sec=5)[39m
+2025-11-21 00:57:22 [32minfo[39m: [32m Serveur démarré sur le port 5000[39m
+2025-11-21 00:57:22 [32minfo[39m: [32m Environnement: development[39m
+2025-11-21 00:57:22 [32minfo[39m: [32m URL: http://localhost:5000[39m
+2025-11-21 00:57:22 [32minfo[39m: [32m Health check: http://localhost:5000/api/v1/health[39m
+2025-11-21 00:57:22 [32minfo[39m: [32m MongoDB connecté: localhost[39m
+2025-11-21 00:57:27 [32minfo[39m: [32m[INACTIVITY JOB] Looking for users with lastLogin before 2025-11-13T23:57:27.790Z[39m
+2025-11-21 00:57:27 [32minfo[39m: [32m[INACTIVITY JOB] Found 6 inactive users[39m
+2025-11-21 00:57:27 [32minfo[39m: [32m[NOTIF] Created inactivity for user 68f52ad159ce6d23b2d15fad[39m
+2025-11-21 00:57:27 [32minfo[39m: [32m[NOTIF] Created inactivity for user 68f52b4c59ce6d23b2d15fb0[39m
+2025-11-21 00:57:27 [32minfo[39m: [32m[NOTIF] Created inactivity for user 690f37c189e98469a4598f9f[39m
+2025-11-21 00:57:27 [32minfo[39m: [32m[NOTIF] Created inactivity for user 6911ba003575b08ce5594472[39m
+2025-11-21 00:57:27 [32minfo[39m: [32m[NOTIF] Created inactivity for user 6915bcffc7657c5e97bc455c[39m
+2025-11-21 00:57:27 [32minfo[39m: [32m[NOTIF] Created inactivity for user 691707e0fecfdbb56b5033ab[39m
+2025-11-21 00:57:27 [32minfo[39m: [32m[INACTIVITY JOB] Sent 6 inactivity notifications[39m

@@ -3,6 +3,7 @@ const ApiResponse = require('../utils/apiResponse');
 const ApiError = require('../utils/apiError');
 const logger = require('../utils/logger');
 const config = require('../config');
+const Subscription = require('../models/Subscription.model');
 
 class AuthController {
   /**
@@ -15,6 +16,8 @@ class AuthController {
       const { name, email, password } = req.body;
       const result = await AuthService.signup({ name, email, password });
 
+
+      const isPremium = await (result.user.isActivePremium ? result.user.isActivePremium() : false);
       const response = ApiResponse.created(
         {
           user: {
@@ -22,7 +25,7 @@ class AuthController {
             name: result.user.name,
             email: result.user.email,
             avatar: result.user.avatar,
-            isPremium: result.user.isPremium,
+            isPremium,
             authProvider: result.user.authProvider,
           },
           accessToken: result.tokens.accessToken,
@@ -47,6 +50,8 @@ class AuthController {
       const { email, password } = req.body;
       const result = await AuthService.login(email, password);
 
+
+      const isPremium = await (result.user.isActivePremium ? result.user.isActivePremium() : false);
       const response = ApiResponse.success(
         {
           user: {
@@ -54,7 +59,7 @@ class AuthController {
             name: result.user.name,
             email: result.user.email,
             avatar: result.user.avatar,
-            isPremium: result.user.isPremium,
+            isPremium,
             authProvider: result.user.authProvider,
             lastLogin: result.user.lastLogin,
           },
@@ -101,13 +106,17 @@ class AuthController {
     try {
       const user = await AuthService.getCurrentUser(req.user._id);
 
+
+      // Resolve current subscription info
+      const sub = await Subscription.findOne({ user: user._id });
+      const isPremium = sub ? sub.isActiveNow() : false;
       const response = ApiResponse.success({
         id: user._id,
         name: user.name,
         email: user.email,
         avatar: user.avatar,
-        isPremium: user.isPremium,
-        premiumExpiresAt: user.premiumExpiresAt,
+        isPremium,
+        premiumExpiresAt: sub ? sub.expiresAt : null,
         authProvider: user.authProvider,
         isEmailVerified: user.isEmailVerified,
         lastLogin: user.lastLogin,
