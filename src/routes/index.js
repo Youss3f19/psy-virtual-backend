@@ -25,7 +25,7 @@ router.get('/health', (req, res) => {
 
 // Routes d'authentification
 router.use('/auth', authRoutes);
-router.use('/chat', voiceRoutes); 
+router.use('/voice', voiceRoutes); 
 router.use('/billing', billingRoutes);
 // Ratings (sessions/:id/rate etc.)
 router.use('/', adviceRatingRoutes);

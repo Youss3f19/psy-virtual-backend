@@ -122,7 +122,7 @@ En production, protégez `/api-docs` (par ex. middleware vérifiant un token adm
 - `notification.service` : crée notifications et enfile en `NotificationQueue` si livraison externe nécessaire ou si `sendNow`.
 - `notificationDelivery.service` : worker qui traite `NotificationQueue` (envoi SMTP si configuré via nodemailer, stub push support pour l'instant). Gère retries/backoff.
 - `notificationDelivery.job` : interval job qui lance le traitement périodique.
-- `utils/socket.js` : gestion simple de socket.io (si installé) et fonctions `emitToUser` pour push realtime.
+- `utils/socket.js` : gestion simple de socket.io et fonctions `emitToUser` pour push realtime.
 
 ### A noter
 - Actuellement le worker envoie des emails si `SMTP_HOST` est configuré. L'intégration push (FCM/OneSignal) est prévue mais laissée comme extension.
@@ -182,3 +182,7 @@ Regardez `src/routes` pour la liste complète et les middlewares appliqués.
 
 
 
+
+### running webhook
+stripe listen --forward-to localhost:5000/api/v1billing/webhook
+stripe trigger checkout.session.completed

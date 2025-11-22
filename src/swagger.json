@@ -1,7 +1,7 @@
 {
   "openapi": "3.0.3",
   "info": {
-    "title": "Psychologue Virtuel API",
+    "title": "Menthera API",
     "version": "1.0.0",
     "description": "API backend for Psychologue Virtuel — user auth, voice sessions, billing, notifications, weekly summaries, challenges and ratings."
   },

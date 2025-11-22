@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon -r dotenv/config src/server.js dotenv_config_path=.env.development",
+     "dev": "nodemon src/server.js",
     "prod": "NODE_ENV=production node src/server.js",
     "lint": "eslint src/**/*.js",
     "lint:fix": "eslint src/**/*.js --fix",
@@ -19,7 +19,7 @@
     "health",
     "mental-health"
   ],
-  "author": "Laribi Med Youssed | Lina Ezzar | Nouha Ismaili | Youssef Marzouki",
+  "author": "Laribi Med Youssef | Lina Ezzar | Nouha Ismaili | Youssef Marzouki",
   "license": "ISC",
   "engines": {
     "node": ">=18.0.0",

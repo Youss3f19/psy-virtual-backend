@@ -1,4 +1,3 @@
-// src/validators/billing.validator.js
 const { body, param } = require('express-validator');
 
 const createCheckoutValidator = [

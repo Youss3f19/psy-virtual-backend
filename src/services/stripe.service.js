@@ -1,69 +1,49 @@
 const Stripe = require('stripe');
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+const logger = require('../utils/logger');
+
+const stripeSecret = process.env.STRIPE_SECRET_KEY || process.env.STRIPE_SECRET;
+if (!stripeSecret) {
+  logger.warn('STRIPE_SECRET_KEY or STRIPE_SECRET env var not set. Stripe integration disabled');
+}
+const stripe = stripeSecret ? new Stripe(stripeSecret) : null;
 
 class StripeService {
-  /**
-   * Créer une session Checkout pour abonnement
-   * @param {string} priceId - ID du tarif Stripe (mensuel/3mois/annuel)
-   * @param {string} customerEmail - Email de l'utilisateur
-   * @param {object} metadata - Métadonnées optionnelles
-   * @returns {object} Session Checkout
-   */
-  static async createCheckoutSession({ priceId, customerEmail, metadata = {} }) {
-    const session = await stripe.checkout.sessions.create({
+  static async getCustomer(customerId) {
+    if (!stripe) throw new Error('Stripe not configured');
+    return await stripe.customers.retrieve(customerId);
+  }
+
+  static async createCheckoutSession({ priceId, customerId, metadata = {} }) {
+    if (!stripe) throw new Error('Stripe not configured');
+    return await stripe.checkout.sessions.create({
       mode: 'subscription',
-      customer_email: customerEmail,
-      line_items: [
-        {
-          price: priceId,
-          quantity: 1,
-        },
-      ],
+      customer: customerId, // IMPORTANT real Stripe customer
+      line_items: [{ price: priceId, quantity: 1 }],
       success_url: `${process.env.FRONTEND_URL}/#/success`,
       cancel_url: `${process.env.FRONTEND_URL}/#/cancel`,
       metadata,
-      allow_promotion_codes: true, 
     });
-
-    return session;
   }
 
-  /**
-   * Récupérer une session Checkout
-   * @param {string} sessionId - ID de la session
-   * @returns {object} Session
-   */
   static async getCheckoutSession(sessionId) {
     return await stripe.checkout.sessions.retrieve(sessionId);
   }
 
-  /**
-   * Récupérer une subscription
-   * @param {string} subscriptionId - ID subscription
-   * @returns {object} Subscription
-   */
   static async getSubscription(subscriptionId) {
     return await stripe.subscriptions.retrieve(subscriptionId);
   }
 
-  /**
-   * Annuler une subscription
-   * @param {string} subscriptionId - ID subscription
-   * @returns {object} Subscription annulée
-   */
   static async cancelSubscription(subscriptionId) {
     return await stripe.subscriptions.cancel(subscriptionId);
   }
 
-  /**
-   * Vérifier la signature webhook
-   * @param {Buffer} payload - Raw body
-   * @param {string} signature - Header stripe-signature
-   * @returns {object} Event vérifié
-   */
   static verifyWebhookSignature(payload, signature) {
-    const endpointSecret = process.env.STRIPE_WEBHOOK_SECRET;
-    return stripe.webhooks.constructEvent(payload, signature, endpointSecret);
+    if (!stripe) throw new Error('Stripe not configured');
+    return stripe.webhooks.constructEvent(
+      payload,
+      signature,
+      process.env.STRIPE_WEBHOOK_SECRET
+    );
   }
 }
 

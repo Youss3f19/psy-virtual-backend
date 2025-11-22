@@ -1,21 +1,48 @@
 const StripeService = require('../services/stripe.service');
+const logger = require('../utils/logger');
+
+const stripeSecret = process.env.STRIPE_SECRET_KEY || process.env.STRIPE_SECRET;
+const Stripe = require('stripe');
+const stripe = stripeSecret ? new Stripe(stripeSecret) : null;
+
 const User = require('../models/User.model');
 const Subscription = require('../models/Subscription.model');
 const ApiError = require('../utils/apiError');
 const apiResponse = require('../utils/apiResponse');
-const logger = require('../utils/logger');
 
 class BillingController {
-  /**
-   * Créer une session de paiement Stripe Checkout
-   */
-  static async createCheckout(req, res, next) {
+
+  // CREATE CHECKOUT SESSION
+  static async createCheckout(req, res) {
     try {
-      const { plan } = req.body; // monthly , quarterly , yearly
+      if (!stripe) {
+        return res.json({
+          success: false,
+          code: 503,
+          message: "Stripe not configured. Payment unavailable."
+        });
+      }
+      const { plan } = req.body;
       const userId = req.user.id;
 
       const user = await User.findById(userId);
-      if (!user) throw ApiError.notFound('Utilisateur non trouvé');
+
+      if (!user) {
+        return res.json({
+          success: false,
+          code: 404,
+          message: "Utilisateur non trouvé"
+        });
+      }
+
+      // Already premium: return code 407 safely
+      if (user.isPremium && user.premiumExpiresAt && user.premiumExpiresAt > new Date()) {
+        return res.json({
+          success: false,
+          code: 407,
+          message: "Votre abonnement est déjà actif."
+        });
+      }
 
       const priceMap = {
         monthly: process.env.PRICE_MONTH,
@@ -25,58 +52,110 @@ class BillingController {
 
       const priceId = priceMap[plan];
       if (!priceId) {
-        throw ApiError.badRequest('Plan invalide. Choix: monthly, quarterly, yearly');
+        return res.json({
+          success: false,
+          code: 400,
+          message: "Plan invalide"
+        });
       }
 
+      // Ensure Stripe Customer Exists
+      if (!user.stripeCustomerId) {
+        const customer = await stripe.customers.create({
+          email: user.email,
+          metadata: { userId: user._id.toString() },
+        });
+
+        user.stripeCustomerId = customer.id;
+        await user.save();
+      }
+
+      // Create Checkout Session
       const session = await StripeService.createCheckoutSession({
         priceId,
-        customerEmail: user.email,
-        metadata: {
-          userId: user._id.toString(),
-          plan,
+        customerId: user.stripeCustomerId,
+        metadata: { userId: user._id.toString(), plan },
+      });
+
+      return res.json({
+        success: true,
+        code: 200,
+        data: {
+          sessionId: session.id,
+          url: session.url,
         },
       });
 
-      logger.info(`Session Checkout créée: ${session.id} pour user ${user.email}`);
-
-      return res.json(
-        apiResponse.success({
-          sessionId: session.id,
-          url: session.url,
-        })
-      );
     } catch (error) {
-      next(error);
+      return res.json({
+        success: false,
+        code: 500,
+        message: error.message || "Erreur serveur"
+      });
     }
   }
 
-  /**
-   * Vérifier le statut d'une session après paiement
-   */
-  static async getSessionStatus(req, res, next) {
+
+  // GET SESSION STATUS
+  static async getSessionStatus(req, res) {
     try {
+      if (!stripe) {
+        return res.json({
+          success: false,
+          code: 503,
+          message: "Stripe not configured."
+        });
+      }
       const { sessionId } = req.params;
       const session = await StripeService.getCheckoutSession(sessionId);
 
-      return res.json(
-        apiResponse.success({
+      const userId = session.metadata.userId;
+      const subscriptionId = session.subscription;
+
+      const user = await User.findById(userId);
+      if (!user) {
+        return res.json({
+          success: false,
+          code: 404,
+          message: "Utilisateur non trouvé"
+        });
+      }
+
+      if (subscriptionId && !user.stripeSubscriptionId) {
+        user.stripeSubscriptionId = subscriptionId;
+        await user.save();
+      }
+
+      return res.json({
+        success: true,
+        code: 200,
+        data: {
           status: session.payment_status,
-          customerEmail: session.customer_email,
-          subscriptionId: session.subscription,
-        })
-      );
+          subscriptionId,
+        }
+      });
+
     } catch (error) {
-      next(error);
+      return res.json({
+        success: false,
+        code: 500,
+        message: error.message || "Erreur serveur"
+      });
     }
   }
 
-  /**
-   * Annuler l'abonnement Premium
-   */
-  static async cancelSubscription(req, res, next) {
+
+  // CANCEL SUBSCRIPTION
+  static async cancelSubscription(req, res) {
     try {
-      const userId = req.user.id;
-      const user = await User.findById(userId);
+      if (!stripe) {
+        return res.json({
+          success: false,
+          code: 503,
+          message: "Stripe not configured."
+        });
+      }
+      const user = await User.findById(req.user.id);
 
       const sub = await Subscription.findOne({ user: userId });
       if (!sub || !sub.isActive) {
@@ -96,24 +175,28 @@ class BillingController {
       logger.info(`Abonnement annulé pour user ${user?.email}`);
       return res.json(apiResponse.success({ message: 'Abonnement annulé avec succès' }));
     } catch (error) {
-      next(error);
+      return res.json({
+        success: false,
+        code: 500,
+        message: error.message
+      });
     }
   }
 
-  /**
-   * Webhook Stripe - reçoit événements paiement
-   */
-  static async handleWebhook(req, res, next) {
-  let event;
 
-  try {
-    const signature = req.headers['stripe-signature'];
-    event = StripeService.verifyWebhookSignature(req.body, signature);
-    logger.info(`Webhook reçu: ${event.type}`);
-  } catch (err) {
-    logger.error(`Webhook signature invalide: ${err.message}`);
-    return res.status(400).send(`Webhook Error: ${err.message}`);
-  }
+  // WEBHOOK
+  static async handleWebhook(req, res) {
+    let event;
+
+    try {
+      if (!stripe) {
+        return res.status(503).json({ error: 'Stripe not configured' });
+      }
+      const signature = req.headers["stripe-signature"];
+      event = StripeService.verifyWebhookSignature(req.body, signature);
+    } catch (err) {
+      return res.status(400).send(`Webhook Error: ${err.message}`);
+    }
 
     try {
       if (event.type === 'checkout.session.completed' || event.type === 'invoice.paid') {
@@ -207,3 +290,4 @@ class BillingController {
 }
 
 module.exports = BillingController;
+

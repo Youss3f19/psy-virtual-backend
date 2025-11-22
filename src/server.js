@@ -1,12 +1,16 @@
 const dotenv = require("dotenv");
-dotenv.config({ path: ".env.development" });
+const path = require('path');
+
+// Load .env file based on NODE_ENV or use .env.development by default
+const envFile = process.env.NODE_ENV === 'production' ? '.env' : '.env.development';
+dotenv.config({ path: path.resolve(__dirname, `../${envFile}`) });
+
 const express = require('express');
 const app = require('./app');
 const connectDB = require('./config/database');
 const config = require('./config');
 const logger = require('./utils/logger');
 const fs = require('fs');
-const path = require('path');
 
 // Créer le dossier logs
 const logsDir = path.join(__dirname, '../logs');
